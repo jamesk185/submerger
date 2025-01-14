@@ -1,6 +1,8 @@
 
 import re
+import datetime as dt
 from datetime import datetime
+import re
 import sys
 
 def parse_subs(text):
@@ -8,9 +10,6 @@ def parse_subs(text):
 	prevline = "blank"
 	content = ""
 	subs_dict = {}
-	
-	# define time format
-	time_format = "%H:%M:%S,%f"
 	
 	# loop through text line by line
 	for count, line in enumerate(text):
@@ -45,22 +44,69 @@ def parse_subs(text):
 		# unknown
 		else:
 			print(f"Issue on line {count}. Exited early")
-			sys.exit()
+	
+	return subs_dict
+
+
+def merge_subs(first_sub, second_sub):
+	
+	out = ""
+	
+	for key, sub in first_sub.items():
+		start_time = sub[0]
+		end_time = sub[1]
+		content = sub[2]
+		
+		second_sub_list = [(value, key) for key, value in second_sub.items()]
+		# (1) start time and end time difference less than 500ms
+		second_sub_filtered = [x[1] for x in second_sub_list if
+			dates2seconds_diff(x[0][0], start_time) < 0.5 and 
+			dates2seconds_diff(x[0][1], end_time) < 0.5
+		]
+		
+		if second_sub_filtered:
+			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
+		else:
+			second_content = ""
+		
+		out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
+	
+	return out
+
+
+# calculate the difference in total seconds between two timestamps
+def dates2seconds_diff(first_date, second_date):
+	first_seconds = (first_date-dt.datetime(1900,1,1)).total_seconds()
+	second_seconds = (second_date-dt.datetime(1900,1,1)).total_seconds()
+	return abs(second_seconds - first_seconds)
 
 
 def main():
+	global time_format
+	
+	# define time format
+	time_format = "%H:%M:%S,%f"
 	
 	# read first subtitle file
-	first_sub_path = r"C:\Users\james\Videos\Movies\to_see\The_Bohemian_Life_(1992)_[1080p]\La.Vie.de.Boheme.1990.Criterion.1080p.BluRay.x265.HEVC.AAC-SARTRE.srt"
+	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\La.Vie.de.Boheme.1990.Criterion.1080p.BluRay.x265.HEVC.AAC-SARTRE.srt"
 	with open(first_sub_path, "r") as r:
 		first_sub = r.readlines()
 	
 	# read second subtitle file
-	second_sub_path = r"C:\Users\james\Videos\Movies\to_see\The_Bohemian_Life_(1992)_[1080p]\[zmk.pw]The.Bohemian.Life.1992.1080p.BluRay.x264.AAC-[YTS.MX].srt"
+	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\[zmk.pw]The.Bohemian.Life.1992.1080p.BluRay.x264.AAC-[YTS.MX].srt"
 	with open(second_sub_path, "r") as r:
 		second_sub = r.readlines()
 	
-	parse_subs(first_sub)
+	# this will be the primary sub
+	first_sub = parse_subs(first_sub)
+	# this will be the secondary sub
+	second_sub = parse_subs(second_sub)
+	
+	out = merge_subs(first_sub, second_sub)
+	
+	with open("merged_subs.srt", "w") as w:
+		w.write(out)
+	
 	
 	
 
