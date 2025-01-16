@@ -52,24 +52,43 @@ def merge_subs(first_sub, second_sub):
 	
 	out = ""
 	
+	# create list for second_sub
+	second_sub_list = [(value, key) for key, value in second_sub.items()]
+	
 	for key, sub in first_sub.items():
+		done = None
 		start_time = sub[0]
 		end_time = sub[1]
 		content = sub[2]
 		
-		second_sub_list = [(value, key) for key, value in second_sub.items()]
 		# (1) start time and end time difference less than 500ms
 		second_sub_filtered = [x[1] for x in second_sub_list if
 			dates2seconds_diff(x[0][0], start_time) < 0.5 and 
 			dates2seconds_diff(x[0][1], end_time) < 0.5
 		]
-		
-		if second_sub_filtered:
+		if second_sub_filtered and len(second_sub_filtered) == 1:
 			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
-		else:
-			second_content = ""
+			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
+			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
+			done = "Y"
+			continue
 		
-		out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
+		# (2) start time and end time difference less than 1s
+		second_sub_filtered = [x[1] for x in second_sub_list if
+			dates2seconds_diff(x[0][0], start_time) < 1 and 
+			dates2seconds_diff(x[0][1], end_time) < 1
+		]
+		if second_sub_filtered and len(second_sub_filtered) == 1:
+			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
+			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
+			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
+			done = "Y"
+			continue
+		
+		if not done:
+			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
+	
+	print(f"Unmatched in second_sub: {len(second_sub_list)}")
 	
 	return out
 
@@ -107,11 +126,6 @@ def main():
 	with open("merged_subs.srt", "w") as w:
 		w.write(out)
 	
-	
-	
-
-
-
 
 
 if __name__ == "__main__":
