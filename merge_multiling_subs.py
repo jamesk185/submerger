@@ -52,41 +52,113 @@ def merge_subs(first_sub, second_sub):
 	
 	out = ""
 	
-	# create list for second_sub
+	# create lists for both
+	first_sub_list = [(value, key) for key, value in first_sub.items()]
 	second_sub_list = [(value, key) for key, value in second_sub.items()]
 	
-	for key, sub in first_sub.items():
+	# find starting sub ID in second_sub
+	for i in range(3):
+		# getting starting time in first_sub
+		start_time = first_sub_list[i][0][0]
+		# find starting point in second_sub
+		starting_second_sub = [x[1] for x in second_sub_list if dates2seconds_diff(x[0][0], start_time) < 0.5]
+		if starting_second_sub:
+			starting_second_sub = starting_second_sub[0]
+			starting_first_sub = first_sub_list[i][1]
+			break
+		elif not starting_second_sub and i == 2:
+			print("Could not find the starting point in the second file.")
+	
+	# remove subs that come before the starting points
+	first_sub_list = [x for x in first_sub_list if int(x[1]) >= int(starting_first_sub)]
+	second_sub_list = [x for x in second_sub_list if int(x[1]) >= int(starting_second_sub)]
+	
+	for sub, key in first_sub_list:
 		done = None
-		start_time = sub[0]
-		end_time = sub[1]
-		content = sub[2]
+		first_start_time = sub[0]
+		first_end_time = sub[1]
+		first_content = sub[2]
 		
-		# (1) start time and end time difference less than 500ms
-		second_sub_filtered = [x[1] for x in second_sub_list if
-			dates2seconds_diff(x[0][0], start_time) < 0.5 and 
-			dates2seconds_diff(x[0][1], end_time) < 0.5
-		]
-		if second_sub_filtered and len(second_sub_filtered) == 1:
-			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
-			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
-			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
-			done = "Y"
+		if not second_sub_list:
+			continue
+		second_start_time = second_sub_list[0][0][0]
+		second_end_time = second_sub_list[0][0][1]
+		second_content = second_sub_list[0][0][2]
+		
+		if dates2seconds_diff(second_start_time, first_start_time) > 1:
+			print(f"No good starting point for first sub {key}")
+			# add to output text with no match
+			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
 			continue
 		
-		# (2) start time and end time difference less than 1s
-		second_sub_filtered = [x[1] for x in second_sub_list if
-			dates2seconds_diff(x[0][0], start_time) < 1 and 
-			dates2seconds_diff(x[0][1], end_time) < 1
-		]
-		if second_sub_filtered and len(second_sub_filtered) == 1:
-			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
-			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
-			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
-			done = "Y"
+		if dates2seconds_diff(second_end_time, first_end_time) < 0.75:
+			# choose longest interval
+			start_time = first_start_time if first_start_time < second_start_time else second_start_time
+			end_time = first_end_time if first_end_time > second_end_time else second_end_time
+			# add to output with match
+			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + "\n\n"
+			done = "yes"
+			# remove ouputted sub from second_sub_list
+			second_sub_list = second_sub_list[1:]
+			continue
+		
+		# see if merging two from second_sub gives a match
+		if len(second_sub_list) < 2:
+			continue
+		second_start_time_ = second_sub_list[1][0][0]
+		second_end_time_ = second_sub_list[1][0][1]
+		second_content_ = second_sub_list[1][0][2]
+		
+		if dates2seconds_diff(second_end_time_, first_end_time) < 0.75 and second_start_time_ < first_end_time:
+			# choose longest interval
+			start_time = first_start_time if first_start_time < second_start_time else second_start_time
+			end_time = first_end_time if first_end_time > second_end_time_ else second_end_time_
+			# add to output with merged match
+			# TO DO maybe add - between second_contents
+			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + " " + second_content_ + "\n\n"
+			done = "yes"
+			# remove ouputted sub from second_sub_list
+			second_sub_list = second_sub_list[2:]
 			continue
 		
 		if not done:
-			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
+			print(f"No good match for first sub {key}")
+			# add to output text with no match
+			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
+		
+	#### first idea
+#	for key, sub in first_sub.items():
+#		done = None
+#		start_time = sub[0]
+#		end_time = sub[1]
+#		content = sub[2]
+#		
+#		# (1) start time and end time difference less than 500ms
+#		second_sub_filtered = [x[1] for x in second_sub_list if
+#			dates2seconds_diff(x[0][0], start_time) < 0.5 and 
+#			dates2seconds_diff(x[0][1], end_time) < 0.5
+#		]
+#		if second_sub_filtered and len(second_sub_filtered) == 1:
+#			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
+#			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
+#			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
+#			done = "Y"
+#			continue
+#		
+#		# (2) start time and end time difference less than 1s
+#		second_sub_filtered = [x[1] for x in second_sub_list if
+#			dates2seconds_diff(x[0][0], start_time) < 1 and 
+#			dates2seconds_diff(x[0][1], end_time) < 1
+#		]
+#		if second_sub_filtered and len(second_sub_filtered) == 1:
+#			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
+#			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
+#			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
+#			done = "Y"
+#			continue
+#		
+#		if not done:
+#			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
 	
 	print(f"Unmatched in second_sub: {len(second_sub_list)}")
 	
