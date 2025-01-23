@@ -1,8 +1,13 @@
+# Author: James Kowalik
+# Created: 25/01/12
+# Revised: 25/01/23
+# Description: 
+
+# TODO NEXT; when current run fails, try switching first_sub and second_sub
 
 import re
 import datetime as dt
 from datetime import datetime
-import re
 import sys
 
 def parse_subs(text):
@@ -85,47 +90,59 @@ def merge_subs(first_sub, second_sub):
 		second_end_time = second_sub_list[0][0][1]
 		second_content = second_sub_list[0][0][2]
 		
-		if dates2seconds_diff(second_start_time, first_start_time) > 1:
+		# 1) difference between start times is less than 1s
+		if dates2seconds_diff(second_start_time, first_start_time) > 2.5:
 			print(f"No good starting point for first sub {key}")
 			# add to output text with no match
 			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
 			continue
 		
-		if dates2seconds_diff(second_end_time, first_end_time) < 0.75:
-			# choose longest interval
-			start_time = first_start_time if first_start_time < second_start_time else second_start_time
-			end_time = first_end_time if first_end_time > second_end_time else second_end_time
-			# add to output with match
-			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + "\n\n"
-			done = "yes"
-			# remove ouputted sub from second_sub_list
-			second_sub_list = second_sub_list[1:]
+		# 2) difference between end times is less than 0.75s
+		out, done, second_sub_list = endtime_diff(0.75, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
+		if done:
 			continue
 		
-		# see if merging two from second_sub gives a match
-		if len(second_sub_list) < 2:
-			continue
-		second_start_time_ = second_sub_list[1][0][0]
-		second_end_time_ = second_sub_list[1][0][1]
-		second_content_ = second_sub_list[1][0][2]
-		
-		if dates2seconds_diff(second_end_time_, first_end_time) < 0.75 and second_start_time_ < first_end_time:
-			# choose longest interval
-			start_time = first_start_time if first_start_time < second_start_time else second_start_time
-			end_time = first_end_time if first_end_time > second_end_time_ else second_end_time_
-			# add to output with merged match
-			# TO DO maybe add - between second_contents
-			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + " " + second_content_ + "\n\n"
-			done = "yes"
-			# remove ouputted sub from second_sub_list
-			second_sub_list = second_sub_list[2:]
+		# 3) adjacent merged sub differs by less than 0.75s
+		out, done, second_sub_list = merged_endtime_diff(0.75, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
+		if done:
 			continue
 		
+		# 4) difference between end times is less than 1s
+		out, done, second_sub_list = endtime_diff(1.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
+		if done:
+			continue
+		
+		# 5) adjacent merged sub differs by less than 1s
+		out, done, second_sub_list = merged_endtime_diff(1.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
+		if done:
+			continue
+		
+		# 6) difference between end times is less than 1.25s
+		out, done, second_sub_list = endtime_diff(2, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
+		if done:
+			continue
+		
+		# 7) adjacent merged sub differs by less than 1.25s
+		out, done, second_sub_list = merged_endtime_diff(2, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
+		if done:
+			continue
+		
+		# 8) difference between end times is less than 1.25s
+		out, done, second_sub_list = endtime_diff(2.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
+		if done:
+			continue
+		
+		# 9) adjacent merged sub differs by less than 1.25s
+		out, done, second_sub_list = merged_endtime_diff(2.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
+		if done:
+			continue
+		
+		# no match
 		if not done:
-			print(f"No good match for first sub {key}")
+			print(f"No good match for first sub: {key}")
 			# add to output text with no match
 			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
-		
+			return out
 	#### first idea
 #	for key, sub in first_sub.items():
 #		done = None
@@ -170,6 +187,38 @@ def dates2seconds_diff(first_date, second_date):
 	first_seconds = (first_date-dt.datetime(1900,1,1)).total_seconds()
 	second_seconds = (second_date-dt.datetime(1900,1,1)).total_seconds()
 	return abs(second_seconds - first_seconds)
+
+
+# function for difference between end times
+def endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done):
+	if dates2seconds_diff(second_end_time, first_end_time) < gap:
+		# choose longest interval
+		start_time = first_start_time if first_start_time < second_start_time else second_start_time
+		end_time = first_end_time if first_end_time > second_end_time else second_end_time
+		# add to output with match
+		out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + "\n\n"
+		done = "yes"
+		# remove ouputted sub from second_sub_list
+		second_sub_list = second_sub_list[1:]
+	return out, done, second_sub_list
+
+# function for seeing if merging two from second_sub gives a match
+def merged_endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done):
+	if len(second_sub_list) > 1:
+		second_start_time_ = second_sub_list[1][0][0]
+		second_end_time_ = second_sub_list[1][0][1]
+		second_content_ = second_sub_list[1][0][2]
+		if dates2seconds_diff(second_end_time_, first_end_time) < 0.75 and second_start_time_ < first_end_time:
+			# choose longest interval
+			start_time = first_start_time if first_start_time < second_start_time else second_start_time
+			end_time = first_end_time if first_end_time > second_end_time_ else second_end_time_
+			# add to output with merged match
+			# TO DO maybe add - between second_contents
+			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + " " + second_content_ + "\n\n"
+			done = "yes"
+			# remove ouputted sub from second_sub_list
+			second_sub_list = second_sub_list[2:]
+	return out, done, second_sub_list
 
 
 def main():
