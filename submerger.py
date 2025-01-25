@@ -4,6 +4,7 @@
 # Description: 
 
 # TODO NEXT; when current run fails, try switching first_sub and second_sub
+# TODO eventually; perform check that no subs overlap in result file
 
 import re
 import datetime as dt
@@ -78,13 +79,18 @@ def merge_subs(first_sub, second_sub):
 	first_sub_list = [x for x in first_sub_list if int(x[1]) >= int(starting_first_sub)]
 	second_sub_list = [x for x in second_sub_list if int(x[1]) >= int(starting_second_sub)]
 	
-	for sub, key in first_sub_list:
+	while first_sub_list:
 		done = None
+		
+		# initialise first_sub objects
+		sub, key = first_sub_list[0]
 		first_start_time = sub[0]
 		first_end_time = sub[1]
 		first_content = sub[2]
 		
+		# initialise second_sub objects
 		if not second_sub_list:
+			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
 			continue
 		second_start_time = second_sub_list[0][0][0]
 		second_end_time = second_sub_list[0][0][1]
@@ -95,47 +101,82 @@ def merge_subs(first_sub, second_sub):
 			print(f"No good starting point for first sub {key}")
 			# add to output text with no match
 			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
+			first_sub_list = first_sub_list[1:]
 			continue
 		
 		# 2) difference between end times is less than 0.75s
 		out, done, second_sub_list = endtime_diff(0.75, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
 		# 3) adjacent merged sub differs by less than 0.75s
 		out, done, second_sub_list = merged_endtime_diff(0.75, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 4) difference between end times is less than 1s
+		# 4) difference between end times is less than 1.5s
 		out, done, second_sub_list = endtime_diff(1.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 5) adjacent merged sub differs by less than 1s
+		# 5) adjacent merged sub differs by less than 1.5s
 		out, done, second_sub_list = merged_endtime_diff(1.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 6) difference between end times is less than 1.25s
+		# 6) difference between end times is less than 2s
 		out, done, second_sub_list = endtime_diff(2, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 7) adjacent merged sub differs by less than 1.25s
+		# 7) adjacent merged sub differs by less than 2s
 		out, done, second_sub_list = merged_endtime_diff(2, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 8) difference between end times is less than 1.25s
+		# 8) difference between end times is less than 2.5s
 		out, done, second_sub_list = endtime_diff(2.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 9) adjacent merged sub differs by less than 1.25s
+		# 9) adjacent merged sub differs by less than 2.5s
 		out, done, second_sub_list = merged_endtime_diff(2.5, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
 		if done:
+			first_sub_list = first_sub_list[1:]
 			continue
+		
+		### do the same but in reverse with second_sub as primary sub
+		
+		# 10) adjacent merged sub differs by less than 0.75s
+		out, done, first_sub_list = merged_endtime_diff(0.75, key, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+		if done:
+			second_sub_list = second_sub_list[1:]
+			continue
+		
+		# 11) adjacent merged sub differs by less than 1.25s
+		out, done, first_sub_list = merged_endtime_diff(1.25, key, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+		if done:
+			second_sub_list = second_sub_list[1:]
+			continue
+		
+#		# 12) adjacent merged sub differs by less than 1.25s
+#		out, done, first_sub_list = merged_endtime_diff(2, key, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+#		if done:
+#			second_sub_list = second_sub_list[1:]
+#			continue
+		
+#		# 13) adjacent merged sub differs by less than 1.25s
+#		out, done, first_sub_list = merged_endtime_diff(2.5, key, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+#		if done:
+#			second_sub_list = second_sub_list[1:]
+#			continue
 		
 		# no match
 		if not done:
@@ -143,6 +184,8 @@ def merge_subs(first_sub, second_sub):
 			# add to output text with no match
 			out += key + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
 			return out
+	
+	
 	#### first idea
 #	for key, sub in first_sub.items():
 #		done = None
@@ -178,6 +221,7 @@ def merge_subs(first_sub, second_sub):
 #			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
 	
 	print(f"Unmatched in second_sub: {len(second_sub_list)}")
+	print(f"Unmatched in first_sub: {len(first_sub_list)}")
 	
 	return out
 
@@ -228,12 +272,12 @@ def main():
 	time_format = "%H:%M:%S,%f"
 	
 	# read first subtitle file
-	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\La.Vie.de.Boheme.1990.Criterion.1080p.BluRay.x265.HEVC.AAC-SARTRE.srt"
+	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\eng.srt"
 	with open(first_sub_path, "r") as r:
 		first_sub = r.readlines()
 	
 	# read second subtitle file
-	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\[zmk.pw]The.Bohemian.Life.1992.1080p.BluRay.x264.AAC-[YTS.MX].srt"
+	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\chn.srt"
 	with open(second_sub_path, "r") as r:
 		second_sub = r.readlines()
 	
