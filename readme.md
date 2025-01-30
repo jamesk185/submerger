@@ -1,4 +1,5 @@
 ### SUBMERGER
-# By James Kowalik
-# completed in { }
+
+By James Kowalik
+Completed in { }
 
