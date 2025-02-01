@@ -1,467 +1,611 @@
-2
+1
 00:02:05,792000 --> 00:02:07,792000
 Shit!
 该死
 
-3
+2
 00:02:13,802000 --> 00:02:15,844000
 Did I hurt myself?
 受伤了
 
-4
+3
 00:02:15,802000 --> 00:02:18,722000
 My God - blood!
 出血了
 
-5
+4
 00:02:52,842000 --> 00:02:55,092000
 - Everything okay, Marcel? - No.
 你还好吗
 
-6
+5
 00:02:54,842000 --> 00:02:58,842000
 What do you think, with the middle of my face smashed in?
 我的脸刚才受伤了
 
-7
+6
 00:03:03,852000 --> 00:03:06,228000
 Red wine.
 要红酒
 
-8
+7
 00:03:41,892000 --> 00:03:46,143000
 These glasses are smaller than a drunkard's dreams.
 这不是干净的杯子
 
-9
+8
 00:03:45,902000 --> 00:03:50,902000
 - Any luck with the publisher? - No, the swine!
 出版社怎么样 说我的戏曲太长了
 
-10
+9
 00:03:50,063000 --> 00:03:54,902000
 He said it was too long and demanded cuts,
 也不给我定金  只是叫我写短一点
 
-11
+10
 00:03:53,066000 --> 00:03:56,486000
 but with no promises and no advance - the lout!
 混蛋
 
-12
+11
 00:03:55,912000 --> 00:03:59,573000
 - Why not let me read it? - You?
 能给我看看吗 你
 
-13
+12
 00:03:58,912000 --> 00:04:00,866000
 Yes, me.
 是的
 
-14
+13
 00:03:59,912000 --> 00:04:02,826000
 You can read?
 你识字吗
 
-15
+14
 00:04:02,912000 --> 00:04:04,745000
 Are you kidding?
 可以看懂
 
-16
+15
 00:04:03,912000 --> 00:04:07,789000
 I finished third grade in Mongéo before coming to Paris.
 我在小学的时候已经学过
 
-17
+16
 00:04:07,312000 --> 00:04:10,125000
 I'll read it at bedtime.
 我想在入睡之前念
 
-18
+17
 00:04:09,922000 --> 00:04:12,169000
 Why not?
 好吧我借给你
 
-19
+18
 00:04:11,922000 --> 00:04:15,172000
 You'll give me the people's appraisal
 看完后告诉我你的感想
 
-20
+19
 00:04:14,922000 --> 00:04:18,922000
 and put the publishers to shame.
 希望你能看出出版商  没能看出的东西
 
-21
+20
 00:04:25,307000 --> 00:04:29,932000
 <i>The Avenger - A Play in 21 Acts</i> by Marcel Marx
 "复仇者"21幕剧
 
-22
+21
 00:06:22,052000 --> 00:06:24,968000
 EVICTION NOTICE
 马上搬出去
 
-23
+22
 00:06:49,082000 --> 00:06:53,747000
 马歇尔先生  我们已经说好8日退房吧
 Good morning, Monsieur Marcel. Have you forgotten that today is the eighth?
 
-25
+23
 00:06:53,082000 --> 00:06:57,082000
 Already? How time rushes on!
 这么快就到时间了吗
 
-26
+24
 00:06:58,092000 --> 00:07:00,754000
 You're a bit slow in vacating the premises.
 请搬出去
 
-27
+25
 00:07:00,092000 --> 00:07:04,082000
 It's already 11:30.
 已经11点半了  下一位住户到了
 
-28
+26
 00:07:02,923000 --> 00:07:07,135000
 请帮我叫一下出租车
 The new tenant may arrive at any moment. Allow me to find a moving van.
 
-30
+27
 00:07:07,102000 --> 00:07:09,102000
 By all means!
 谢谢
 
-31
+28
 00:07:09,095000 --> 00:07:13,099000
 But there's one little formality to see to first:
 但之前还有点事情要做
 
-32
+29
 00:07:14,017000 --> 00:07:19,105000
 你还没有交3个月的房租
 your three months' back rent. Would you mind? - Of course not.
 
-34
+30
 00:07:18,112000 --> 00:07:23,568000
 Then kindly step into my office, so I may give you a receipt.
 我会付清的 如果你到事务所  我会给你开单
 
-35
+31
 00:07:23,112000 --> 00:07:26,122000
 - When I return. - Why not now?
 回来之后马上过去 现在马上
 
-36
+32
 00:07:26,029000 --> 00:07:30,112000
 I must go to the bank. I don't carry a sum like that on me.
 不去银行就没有钱给你
 
-37
+33
 00:07:33,122000 --> 00:07:36,456000
 I see. No cash.
 那就没办法了
 
-38
+34
 00:07:36,132000 --> 00:07:40,122000
 Then allow me to relieve you of that little burden
 等你回来之前  我会替你保管这些东西
 
-39
+35
 00:07:39,793000 --> 00:07:45,340000
 如果这里面  有贵重东西怎么办
 so it doesn't tire you. You think I'd carry off my belongings in a bag?
 
-41
+36
 00:07:44,142000 --> 00:07:47,342000
 Those are the rules.
 这是规矩
 
-42
+37
 00:07:46,142000 --> 00:07:50,804000
 You're not to remove so much as a single hair until the rent is paid.
 付清房租之前  你别想拿走任何东西
 
-43
+38
 00:07:50,929000 --> 00:07:53,152000
 There's no hair in here,
 里面是我的衬衫
 
-44
+39
 00:07:52,931000 --> 00:07:58,269000
 我想拿到银行隔壁的洗衣房
 just shirts I'm taking to the laundry next door to the bank, just steps from here.
 
-46
+40
 00:07:58,152000 --> 00:08:00,397000
 Please do not misunderstand me,
 你把我当成傻瓜吗
 
-47
+41
 00:08:00,152000 --> 00:08:04,152000
 but certain unfortunate experiences
 租房子的人不可信  这是我长年的经验
 
-48
+42
 00:08:02,857000 --> 00:08:05,652000
 have shattered my faith in tenants.
 
-49
+43
 00:08:06,162000 --> 00:08:10,152000
 Hugo had best accompany you to the bank.
 尤高会跟你一起去银行
 
-50
-00:08:18,498000 --> 00:08:22,335000
-这家伙一直  在银行周围转来转去
-See this man? He's been casing this bank for three days.
-
-52
-00:08:22,172000 --> 00:08:26,214000
-还有一个就在那里  他一直装作看报纸
-I live across the street. His accomplice is around the corner in an Alfa Romeo,
-
 54
-00:08:26,182000 --> 00:08:28,591000
-reading <i>Le Monde -</i> upside down.
-在车上看哨
+00:08:15,172000 --> 00:08:19,172000
+摩勒克福银行
 
-55
+44
+00:08:15,172000 --> 00:08:20,041000
+See this man?
+摩勒克福银行
+
+45
+00:08:20,166000 --> 00:08:26,182000
+还有一个就在那里  他一直装作看报纸
+He's been casing this bank for three days. I live across the street.
+
+46
+00:08:23,878000 --> 00:08:28,591000
+在车上看哨
+His accomplice is around the corner in an Alfa Romeo, reading <i>Le Monde -</i> upside down.
+
+47
 00:08:28,182000 --> 00:08:30,760000
 I only wish to do my duty.
 因为我的所有财产都在
 
-56
+48
 00:08:30,102000 --> 00:08:32,971000
 My life's savings are in this bank.
 这个银行所以我向你告发
 
-57
+49
 00:08:32,182000 --> 00:08:36,182000
 What do you suppose is in his bag?
 请搜查他的包
 
-58
+50
 00:08:58,212000 --> 00:09:01,374000
 Has my apartment been vacated?
 房子已经空出来了吧
 
-59
+51
 00:09:00,212000 --> 00:09:04,419000
 Not yet, Monsieur Schaunard, but very soon.
 我马上收拾好
 
-60
+52
 00:09:04,222000 --> 00:09:08,631000
 The previous tenant, a writer, has gone to get a moving van.
 之前住过的人把箱子  放在我这里就走了
 
-61
+53
 00:09:08,222000 --> 00:09:12,761000
 In the meantime, you may leave your furniture outside.
 我帮你搬东西到走廊
 
-62
+54
 00:09:12,232000 --> 00:09:16,222000
 I'm afraid. If it rains, my furniture will be damaged.
 如果下雨家具会潮湿
 
-63
+55
 00:09:22,242000 --> 00:09:25,273000
 You will forgive me if I ask your profession.
 你是做什么工作的
 
-64
+56
 00:09:25,242000 --> 00:09:29,232000
 You neglected to indicate that on the lease.
 在合同上没有
 
-65
+57
 00:09:31,242000 --> 00:09:37,242000
 Leave the piano here and return at once to my old lodgings
 钢琴就这么放着 到公寓  把高档家私搬过来吧
 
-66
+58
 00:09:36,076000 --> 00:09:42,242000
 还有我的艺术品
 for the rest of my priceless furnishings and works of art.
 
-68
+59
 00:09:51,174000 --> 00:09:56,272000
 Henri, from the Ministry of War. It just arrived by courier.
 是国防大臣的信 刚刚到
 
-69
+60
 00:09:56,012000 --> 00:09:58,262000
 The Ministry of War.
 国防大臣
 
-70
+61
 00:10:00,272000 --> 00:10:04,272000
 It must be the pension
 是我期待已久的  养老金领取书
 
-71
+62
 00:10:03,478000 --> 00:10:09,282000
 终于可以拿到钱了
 that I've been waiting for all these years. At last some recognition of my achievements.
 
-73
+63
 00:10:09,282000 --> 00:10:14,282000
 <i>Dear Monsieur Bernard, courtesy demands that I inform you</i>
 "贝尔那先生" "我把我的不幸遭遇告诉你"
 
-74
+64
 00:10:13,863000 --> 00:10:19,369000
 "这次之后"
 <i>of the unfortunate predicament I find myself in</i> <i>that prevents me at this time from observing the custom</i>
 
-76
+65
 00:10:19,292000 --> 00:10:23,206000
 <i>requiring that rent be paid, especially when it's due.</i>
 "不会再付房租了"
 
-77
+66
 00:10:22,302000 --> 00:10:26,292000
 <i>Until this morning I had hoped</i>
 "到今天早上为止  我都想付清房租"
 
-78
+67
 00:10:25,458000 --> 00:10:29,045000
 <i>to honor this lo very day by paying my rent</i> - <i>ah, delusion!</i>
 
-79
+68
 00:10:28,302000 --> 00:10:32,757000
 <i>As I slept cradled in false certainty, misfortune -</i>
 "但和我的期待相反"
 
-80
+69
 00:10:31,302000 --> 00:10:35,802000
 Ananke <i>in Greek - dashed my hopes.</i>
 "我的这些想法被打破了"
 
-81
+70
 00:10:35,312000 --> 00:10:38,930000
 <i>Certain sizable sums I expected did not materialize,</i>
 "我没有钱"
 
-82
+71
 00:10:38,312000 --> 00:10:43,184000
 <i>but our beautiful France and I will see better days - have no doubt of that.</i>
 "我相信幸运之神  会降临在法国和我身上"
 
-83
+72
 00:10:42,322000 --> 00:10:47,355000
 <i>The moment we do, I shall hasten to inform you of it</i>
 "有了收入之后我会马上通知你"
 
-84
+73
 00:10:47,322000 --> 00:10:51,359000
 <i>and to remove from my lodgings my precious possessions,</i>
 "再取回留在房子里的  我的贵重品"
 
-85
+74
 00:10:51,332000 --> 00:10:55,332000
 <i>which I leave to your safekeeping and to that of the law,</i>
 那之前先让您  和法律来保护它吧
 
-86
+75
 00:10:55,155000 --> 00:10:58,825000
 <i>which restrains you from selling them for one year.</i>
 "不要在一年之内  处理那些东西"
 
-87
+76
 00:10:58,332000 --> 00:11:02,332000
 <i>Until then you are at liberty to use</i>
 "那之前请随便使用房间"
 
-88
+77
 00:11:02,120000 --> 00:11:08,209000
 "我在这里把这件事告诉您"
 <i>the luxurious lodgings in which I have resided.</i> <i>In affirmation of my consent, I hereby affix my signature.</i>
 
-90
+78
 00:11:07,342000 --> 00:11:11,332000
 <i>Marcel Marx.</i>
 "马歇尔·马科斯"
 
-91
+79
 00:11:39,372000 --> 00:11:43,372000
 - Two half orders of trout. - Yes, sir.
 给我半份鳟鱼
 
-92
+80
 00:11:48,382000 --> 00:11:50,877000
 That's a strange order.
 奇怪的要求
 
-93
+81
 00:11:50,382000 --> 00:11:55,340000
 那是经过计算之后得出来的
 On the contrary. This method yields on average
 
-95
+82
 00:11:54,392000 --> 00:11:58,468000
 a quarter more than ordering a full portion.
 这比要一份量更多
 
-96
+83
 00:12:10,412000 --> 00:12:12,357000
 Where is my order?
 我的呢
 
-97
+84
 00:12:11,412000 --> 00:12:16,069000
 I'm afraid this gentleman got the last trout.
 鳟鱼料理已经不做了
 
-98
+85
 00:12:20,422000 --> 00:12:24,494000
 May I invite you to partake of this course with me?
 不介意和我分吧
 
-99
+86
 00:12:24,422000 --> 00:12:27,664000
 I would not deprive you of what is yours, sir.
 我不想夺取你的食物
 
-100
+87
 00:12:27,422000 --> 00:12:32,168000
 Then you'd deprive me of the pleasure of expressing my goodwill?
 你想无视我的好意吗
 
-101
+88
 00:12:32,293000 --> 00:12:36,422000
 In that case, sir...
 那我就不客气了
 
-102
+89
 00:12:42,345000 --> 00:12:45,139000
 Permit me to refrain from serving you the head.
 鱼头我吃
 
-103
+90
 00:12:44,442000 --> 00:12:47,600000
 That I couldn't allow.
 这对你不公平
 
-104
+91
 00:12:47,442000 --> 00:12:51,354000
 For if the head is man's noblest appendage,
 人类的大脑中  需要一些养分
 
-105
+92
 00:12:50,452000 --> 00:12:55,108000
 it's the most unpleasant part of a trout.
 鳟鱼的头可以满足这些需要
 
-106
+93
 00:12:56,452000 --> 00:13:00,442000
 Two heads! This trout is bicephalic,
 有两个头双头  原本是希腊语
 
+94
+00:13:00,405000 --> 00:13:06,452000
+怎么会有双头的鳟鱼
+a word which comes from the Greek and means...
+
+95
+00:13:05,076000 --> 00:13:07,120000
+precisely that.
+
+96
+00:13:08,462000 --> 00:13:13,462000
+Nevertheless, I harbor no regrets about eating this phenomenon.
+吃一些奇形怪状的鱼  已经很普遍
+
+97
+00:13:21,384000 --> 00:13:23,482000
+The sauce was delicious.
+真是好吃的料理
+
+98
+00:13:23,482000 --> 00:13:28,099000
+我也这么认为
+True. It was prepared in the province of Béarn,
+
+99
+00:13:27,482000 --> 00:13:31,311000
+and its fine reputation is richly deserved.
+这里都是些有名的料理
+
+100
+00:13:30,492000 --> 00:13:34,492000
+You seem very learned. You're not from here?
+你怎么会对这里这么熟悉  是巴黎人吗
+
+101
+00:13:34,480000 --> 00:13:37,734000
+我是阿尔巴尼亚人
+No. I come from Albania
+
+102
+00:13:37,492000 --> 00:13:41,502000
+and have lived in Paris only three years now.
+住在巴黎已经有3年了
+
+103
+00:13:41,321000 --> 00:13:44,198000
+Yet you've already mastered our language.
+讲法语真棒
+
+104
+00:13:43,502000 --> 00:13:48,502000
+My nursemaid was French, from Barcelona.
+我的乳娘是从巴塞罗那  来的法国人
+
+105
+00:13:48,502000 --> 00:13:52,707000
+我叫罗德洛夫是画家
+My name is Rodolfo, and I'm a painter.
+
+106
+00:13:52,512000 --> 00:13:54,959000
+Marcel Marx, writer.
+我是作家马科斯
+
 107
-00:13:00,405000 --> 00:13:03,032000
-a word which comes from the Greek
+00:13:54,512000 --> 00:13:57,512000
+May I offer you a bottle of wine?
+我想请你喝酒
+
+108
+00:13:57,512000 --> 00:13:59,797000
+Only on one condition:
+我有条件
+
+109
+00:13:59,522000 --> 00:14:03,522000
+that I see to the coffee and the rest.
+咖啡由我自己拿
+
+110
+00:14:03,522000 --> 00:14:07,263000
+As a painter, don't you think
+作为画家你有什么意见
+
+111
+00:14:05,522000 --> 00:14:09,766000
+that Malevich's <i>Black</i> Square
+就像马雷奇  改变绘画的方向一样
+
+112
+00:14:09,932000 --> 00:14:12,185000
+is as lethal a blow to painting
+
+113
+00:14:12,310000 --> 00:14:17,482000
+肖恩等流派的人
+as the school of Vienna - Schoenberg, Berg, Webern, and the rest - is to music?
+
+114
+00:14:16,532000 --> 00:14:20,532000
+- I agree entirely. - Let's go.
+改变了音乐 要走了
+
+115
+00:14:32,455000 --> 00:14:36,793000
+我住在附近  到我那里继续说吧
+I live just around the corner. We may continue our discussion there.
+
+116
+00:14:40,562000 --> 00:14:45,551000
+"我喝醉了  坐在船上在河上行驶"
+“I floated down impassive rivers, unguided now by bargemen's hands.
+
+117
+00:14:45,562000 --> 00:14:49,552000
+Howling natives had hauled them up for targets
+"不幸的是  船被印第安人打沉了"
+
+118
+00:14:48,304000 --> 00:14:52,975000
+是兰博
+and nailed them naked to painted stakes.” Beautiful stuff, Rimbaud.
+
+119
+00:14:53,976000 --> 00:14:58,314000
+He and Verlaine argued vehemently about -
+
+120
+00:14:58,481000 --> 00:15:01,401000
+Anyway, come inside.
+
+121
+00:15:02,582000 --> 00:15:05,113000
+This is where I live.
+这里就是我家
+
+132
+00:15:04,582000 --> 00:15:06,572000
+谢谢
+
+122
+00:15:12,537000 --> 00:15:14,831000
+Strange. The key's in the lock,
 
