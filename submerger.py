@@ -1,11 +1,12 @@
 # Author: James Kowalik
 # Created: 25/01/12
-# Revised: 25/01/30
+# Revised: 25/02/02
 # Description: Merge two srt files of different languages
 
 # TODO eventually; create system of rules for whether adjacent merged subs are different speakers or not
 # TODO eventually; perform check that no subs overlap in result file
 # TODO eventually; reverse back subtitles that are outputting in reverse order
+# TODO maybe; get optimum final subtitle
 
 import re
 import datetime as dt
@@ -95,6 +96,7 @@ def merge_subs(first_sub, second_sub):
 		# initialise second_sub objects
 		if not second_sub_list:
 			out += str(newid) + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
+			first_sub_list = first_sub_list[1:]
 			newid += 1
 			continue
 		second_start_time = second_sub_list[0][0][0]
@@ -109,7 +111,6 @@ def merge_subs(first_sub, second_sub):
 			for i in range(5):
 				# match found
 				if dates2seconds_diff(second_sub_list[i][0][0], first_start_time) < 2.5:
-					print(second_sub_list[i][1])
 					second_sub_list = second_sub_list[i:]
 					break
 				# add to list of unmatched to be outputted as stand alone subs
@@ -131,7 +132,8 @@ def merge_subs(first_sub, second_sub):
 			else:
 				for unmatched_sub in only_second_sub:
 					unmatched_second_sub.append(unmatched_sub)
-					out += unmatched_sub[1] + "\n" + unmatched_sub[0][0].strftime(time_format) + " --> " + unmatched_sub[0][1].strftime(time_format) + "\n" + unmatched_sub[0][2] + "\n\n"
+					out += str(newid) + "\n" + unmatched_sub[0][0].strftime(time_format) + " --> " + unmatched_sub[0][1].strftime(time_format) + "\n" + unmatched_sub[0][2] + "\n\n"
+					newid += 1
 				# get second_sub objects from new starting point
 				second_start_time = second_sub_list[0][0][0]
 				second_end_time = second_sub_list[0][0][1]
@@ -240,7 +242,7 @@ def merge_subs(first_sub, second_sub):
 			out += str(newid) + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
 			newid += 1
 			return out
-	
+		
 	#### first idea
 #	for key, sub in first_sub.items():
 #		done = None
@@ -277,7 +279,7 @@ def merge_subs(first_sub, second_sub):
 	
 	unmatched = ', '.join([x[1] for x in unmatched_second_sub])
 	print(f"IDs of unmatched in second_sub: {unmatched}")
-	print(f"Not outputted in second_sub: {len(second_sub_list) + len(unmatched_second_sub)}")
+	print(f"Not outputted in second_sub: {len(second_sub_list)}")
 	print(f"Not outputted in first_sub: {len(first_sub_list)}")
 	
 	return out
@@ -332,11 +334,17 @@ def main():
 	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\eng.srt"
 	with open(first_sub_path, "r") as r:
 		first_sub = r.readlines()
+	# add blank line to end just in case there isn't one
+	if first_sub[-1] not in ["\r\n", "\n", "\r"]:
+		first_sub += ["\n"]
 	
 	# read second subtitle file
 	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\chn.srt"
 	with open(second_sub_path, "r") as r:
 		second_sub = r.readlines()
+	# add blank line to end just in case there isn't one
+	if second_sub[-1] not in ["\r\n", "\n", "\r"]:
+		second_sub += ["\n"]
 	
 	# this will be the primary sub
 	first_sub = parse_subs(first_sub)
