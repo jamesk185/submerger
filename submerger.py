@@ -3,10 +3,11 @@
 # Revised: 25/02/02
 # Description: Merge two srt files of different languages
 
+# TODO fix cases of only second sub being included in new fix for overlapping and repetition of second_sub when no first_sub
+# TODO; consider case where first_sub runs out of subs before second_sub (maybe already OK?)
 # TODO eventually; create system of rules for whether adjacent merged subs are different speakers or not
-# TODO eventually; perform check that no subs overlap in result file
-# TODO eventually; reverse back subtitles that are outputting in reverse order
 # TODO maybe; get optimum final subtitle
+# TODO; optimise code for beauty and speed
 
 import re
 import datetime as dt
@@ -168,14 +169,14 @@ def merge_subs(first_sub, second_sub):
 			continue
 		
 		# 6) REVERSED adjacent merged sub differs by less than 0.75s
-		out, done, first_sub_list = merged_endtime_diff(0.75, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+		out, done, first_sub_list = merged_endtime_diff(0.75, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
 			continue
 		
 		# 7) REVERSED adjacent merged sub differs by less than 1.25s
-		out, done, first_sub_list = merged_endtime_diff(1.25, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+		out, done, first_sub_list = merged_endtime_diff(1.25, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
@@ -220,14 +221,14 @@ def merge_subs(first_sub, second_sub):
 			continue
 		
 		# 13) REVERSED adjacent merged sub differs by less than 2s
-		out, done, first_sub_list = merged_endtime_diff(2, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+		out, done, first_sub_list = merged_endtime_diff(2, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
 			continue
 		
 		# 14) REVERSED adjacent merged sub differs by less than 2.5s
-		out, done, first_sub_list = merged_endtime_diff(2.5, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done)
+		out, done, first_sub_list = merged_endtime_diff(2.5, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
@@ -242,40 +243,6 @@ def merge_subs(first_sub, second_sub):
 			out += str(newid) + "\n" + first_start_time.strftime(time_format) + " --> " + first_end_time.strftime(time_format) + "\n" + first_content + "\n\n"
 			newid += 1
 			return out
-		
-	#### first idea
-#	for key, sub in first_sub.items():
-#		done = None
-#		start_time = sub[0]
-#		end_time = sub[1]
-#		content = sub[2]
-#		
-#		# (1) start time and end time difference less than 500ms
-#		second_sub_filtered = [x[1] for x in second_sub_list if
-#			dates2seconds_diff(x[0][0], start_time) < 0.5 and 
-#			dates2seconds_diff(x[0][1], end_time) < 0.5
-#		]
-#		if second_sub_filtered and len(second_sub_filtered) == 1:
-#			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
-#			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
-#			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
-#			done = "Y"
-#			continue
-#		
-#		# (2) start time and end time difference less than 1s
-#		second_sub_filtered = [x[1] for x in second_sub_list if
-#			dates2seconds_diff(x[0][0], start_time) < 1 and 
-#			dates2seconds_diff(x[0][1], end_time) < 1
-#		]
-#		if second_sub_filtered and len(second_sub_filtered) == 1:
-#			second_content = "\n" + second_sub.get(second_sub_filtered[0])[2]
-#			second_sub_list = [x for x in second_sub_list if x[1] != second_sub_filtered[0]]
-#			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + second_content + "\n\n"
-#			done = "Y"
-#			continue
-#		
-#		if not done:
-#			out += key + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
 	
 	unmatched = ', '.join([x[1] for x in unmatched_second_sub])
 	print(f"IDs of unmatched in second_sub: {unmatched}")
@@ -306,7 +273,7 @@ def endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time,
 	return out, done, second_sub_list
 
 # function for seeing if merging two from second_sub gives a match
-def merged_endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done):
+def merged_endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done, reverse = "no"):
 	if len(second_sub_list) > 1:
 		second_start_time_ = second_sub_list[1][0][0]
 		second_end_time_ = second_sub_list[1][0][1]
@@ -315,13 +282,96 @@ def merged_endtime_diff(gap, key, second_sub_list, first_start_time, second_star
 			# choose longest interval
 			start_time = first_start_time if first_start_time < second_start_time else second_start_time
 			end_time = first_end_time if first_end_time > second_end_time_ else second_end_time_
-			# add to output with merged match
+			# switch around order of subs if input is reversed
 			# TO DO maybe add - between second_contents
-			out += str(key) + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + first_content + "\n" + second_content + " " + second_content_ + "\n\n"
+			if reverse == "no":
+				content = first_content + "\n" + second_content + " " + second_content_
+			elif reverse == "yes":
+				content = second_content + " " + second_content_ + "\n" + first_content
+			else:
+				print("Parameter issue")
+				sys.exit()
+			# add to output with merged match
+			out += str(key) + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
 			done = "yes"
 			# remove ouputted sub from second_sub_list
 			second_sub_list = second_sub_list[2:]
 	return out, done, second_sub_list
+
+# remove overlap from subs while making second sub to repeat if it's blank
+def unoverlap(text):
+	lines = text.split("\n")
+	# initialise
+	prevline = "blank"
+	subs_dict = {}
+	prev_id, prev_start_time, prev_end_time, prev_content = [""]*4
+	
+	# loop through text line by line
+	for count, line in enumerate(lines):
+		line = line.strip()
+		
+		# line is subtitle number so start new block
+		if line.isnumeric() and prevline == "blank":
+			id = line
+			prevline = "id"
+		# line is time stamp
+		elif " --> " in line and prevline == "id":
+			start_time, end_time = line.split(" --> ")
+			# parse the timestamps
+			start_time = datetime.strptime(start_time, time_format)
+			end_time = datetime.strptime(end_time, time_format)
+			prevline = "time"
+		# line is first language text
+		elif line and prevline == "time":
+			first_content = line
+			prevline = "first_content"
+		# line is second language text
+		elif line and prevline == "first_content":
+			second_content = line
+			prevline = "second_content"
+		# line is blank so start new block
+		elif not line:
+			if prevline == "first_content":
+				second_content = ""
+			# add to all block's data to dict
+			if prev_id not in subs_dict:
+				# if times overlap reduce previous endtime
+				if prev_end_time and start_time < prev_end_time:
+					prev_end_time = start_time
+				# if second language content is empty here then repeat from previous
+				if second_content == "":
+					second_content = prev_second_content
+				# add previous sub
+				if prev_id:
+					subs_dict[prev_id] = (prev_start_time, prev_end_time, prev_first_content, prev_second_content)
+				# reassign prev objects
+				prev_id = id
+				prev_start_time = start_time
+				prev_end_time = end_time
+				prev_first_content = first_content
+				prev_second_content = second_content
+			else:
+				print(f"ID used a second time on line {count}. Exited early")
+				sys.exit()
+			content = ""
+			prevline = "blank"
+		# unknown
+		else:
+			print(prevline)
+			print(f"Issue on line {count}. Exited early")
+	#	# if end of lines add final sub
+	#	if count + 1 == len(lines):
+	#		subs_dict[prev_id] = (prev_start_time, prev_end_time, prev_first_content, prev_second_content)
+		
+	
+	out = ""
+	for key, value in subs_dict.items():
+		start_time = value[0]
+		end_time = value[1]
+		content = value[2] + "\n" + value[3]
+		out += str(key) + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
+	
+	return out
 
 
 def main():
@@ -352,6 +402,8 @@ def main():
 	second_sub = parse_subs(second_sub)
 	
 	out = merge_subs(first_sub, second_sub)
+	
+	out = unoverlap(out)
 	
 	with open("merged_subs.srt", "w") as w:
 		w.write(out)

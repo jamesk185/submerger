@@ -4,7 +4,7 @@ Shit!
 该死
 
 2
-00:02:13,802000 --> 00:02:15,802000
+00:02:13,802000 --> 00:02:15,844000
 Did I hurt myself?
 受伤了
 
@@ -14,7 +14,7 @@ My God - blood!
 出血了
 
 4
-00:02:52,842000 --> 00:02:54,842000
+00:02:52,842000 --> 00:02:55,092000
 - Everything okay, Marcel? - No.
 你还好吗
 
@@ -29,32 +29,32 @@ Red wine.
 要红酒
 
 7
-00:03:41,892000 --> 00:03:45,902000
+00:03:41,892000 --> 00:03:46,143000
 These glasses are smaller than a drunkard's dreams.
 这不是干净的杯子
 
 8
-00:03:45,902000 --> 00:03:50,063000
+00:03:45,902000 --> 00:03:50,902000
 - Any luck with the publisher? - No, the swine!
 出版社怎么样 说我的戏曲太长了
 
 9
-00:03:50,063000 --> 00:03:53,066000
+00:03:50,063000 --> 00:03:54,902000
 He said it was too long and demanded cuts,
 也不给我定金  只是叫我写短一点
 
 10
-00:03:53,066000 --> 00:03:55,912000
+00:03:53,066000 --> 00:03:56,486000
 but with no promises and no advance - the lout!
 混蛋
 
 11
-00:03:55,912000 --> 00:03:58,912000
+00:03:55,912000 --> 00:03:59,573000
 - Why not let me read it? - You?
 能给我看看吗 你
 
 12
-00:03:58,912000 --> 00:03:59,912000
+00:03:58,912000 --> 00:04:00,866000
 Yes, me.
 是的
 
@@ -64,27 +64,27 @@ You can read?
 你识字吗
 
 14
-00:04:02,912000 --> 00:04:03,912000
+00:04:02,912000 --> 00:04:04,745000
 Are you kidding?
 可以看懂
 
 15
-00:04:03,912000 --> 00:04:07,312000
+00:04:03,912000 --> 00:04:07,789000
 I finished third grade in Mongéo before coming to Paris.
 我在小学的时候已经学过
 
 16
-00:04:07,312000 --> 00:04:09,922000
+00:04:07,312000 --> 00:04:10,125000
 I'll read it at bedtime.
 我想在入睡之前念
 
 17
-00:04:09,922000 --> 00:04:11,922000
+00:04:09,922000 --> 00:04:12,169000
 Why not?
 好吧我借给你
 
 18
-00:04:11,922000 --> 00:04:14,922000
+00:04:11,922000 --> 00:04:15,172000
 You'll give me the people's appraisal
 看完后告诉我你的感想
 
@@ -104,9 +104,9 @@ EVICTION NOTICE
 马上搬出去
 
 22
-00:06:49,082000 --> 00:06:53,082000
-Good morning, Monsieur Marcel. Have you forgotten that today is the eighth?
+00:06:49,082000 --> 00:06:53,747000
 马歇尔先生  我们已经说好8日退房吧
+Good morning, Monsieur Marcel. Have you forgotten that today is the eighth?
 
 23
 00:06:53,082000 --> 00:06:57,082000
@@ -114,22 +114,22 @@ Already? How time rushes on!
 这么快就到时间了吗
 
 24
-00:06:58,092000 --> 00:07:00,092000
+00:06:58,092000 --> 00:07:00,754000
 You're a bit slow in vacating the premises.
 请搬出去
 
 25
-00:07:00,092000 --> 00:07:02,923000
+00:07:00,092000 --> 00:07:04,082000
 It's already 11:30.
 已经11点半了  下一位住户到了
 
 26
-00:07:02,923000 --> 00:07:07,102000
-The new tenant may arrive at any moment. Allow me to find a moving van.
+00:07:02,923000 --> 00:07:07,135000
 请帮我叫一下出租车
+The new tenant may arrive at any moment. Allow me to find a moving van.
 
 27
-00:07:07,102000 --> 00:07:09,095000
+00:07:07,102000 --> 00:07:09,102000
 By all means!
 谢谢
 
@@ -139,17 +139,17 @@ But there's one little formality to see to first:
 但之前还有点事情要做
 
 29
-00:07:14,017000 --> 00:07:18,112000
-your three months' back rent. Would you mind? - Of course not.
+00:07:14,017000 --> 00:07:19,105000
 你还没有交3个月的房租
+your three months' back rent. Would you mind? - Of course not.
 
 30
-00:07:18,112000 --> 00:07:23,112000
+00:07:18,112000 --> 00:07:23,568000
 Then kindly step into my office, so I may give you a receipt.
 我会付清的 如果你到事务所  我会给你开单
 
 31
-00:07:23,112000 --> 00:07:26,029000
+00:07:23,112000 --> 00:07:26,122000
 - When I return. - Why not now?
 回来之后马上过去 现在马上
 
@@ -159,22 +159,22 @@ I must go to the bank. I don't carry a sum like that on me.
 不去银行就没有钱给你
 
 33
-00:07:33,122000 --> 00:07:36,132000
+00:07:33,122000 --> 00:07:36,456000
 I see. No cash.
 那就没办法了
 
 34
-00:07:36,132000 --> 00:07:39,793000
+00:07:36,132000 --> 00:07:40,122000
 Then allow me to relieve you of that little burden
 等你回来之前  我会替你保管这些东西
 
 35
-00:07:39,793000 --> 00:07:44,142000
-so it doesn't tire you. You think I'd carry off my belongings in a bag?
+00:07:39,793000 --> 00:07:45,340000
 如果这里面  有贵重东西怎么办
+so it doesn't tire you. You think I'd carry off my belongings in a bag?
 
 36
-00:07:44,142000 --> 00:07:46,142000
+00:07:44,142000 --> 00:07:47,342000
 Those are the rules.
 这是规矩
 
@@ -184,29 +184,28 @@ You're not to remove so much as a single hair until the rent is paid.
 付清房租之前  你别想拿走任何东西
 
 38
-00:07:50,929000 --> 00:07:52,931000
+00:07:50,929000 --> 00:07:53,152000
 There's no hair in here,
 里面是我的衬衫
 
 39
-00:07:52,931000 --> 00:07:58,152000
-just shirts I'm taking to the laundry next door to the bank, just steps from here.
+00:07:52,931000 --> 00:07:58,269000
 我想拿到银行隔壁的洗衣房
+just shirts I'm taking to the laundry next door to the bank, just steps from here.
 
 40
-00:07:58,152000 --> 00:08:00,152000
+00:07:58,152000 --> 00:08:00,397000
 Please do not misunderstand me,
 你把我当成傻瓜吗
 
 41
-00:08:00,152000 --> 00:08:02,857000
+00:08:00,152000 --> 00:08:04,152000
 but certain unfortunate experiences
 租房子的人不可信  这是我长年的经验
 
 42
 00:08:02,857000 --> 00:08:05,652000
 have shattered my faith in tenants.
-租房子的人不可信  这是我长年的经验
 
 43
 00:08:06,162000 --> 00:08:10,152000
@@ -214,32 +213,31 @@ Hugo had best accompany you to the bank.
 尤高会跟你一起去银行
 
 44
-00:08:15,172000 --> 00:08:18,498000
+00:08:15,172000 --> 00:08:19,172000
 摩勒克福银行
-尤高会跟你一起去银行
 
 45
-00:08:18,498000 --> 00:08:22,172000
-See this man? He's been casing this bank for three days.
+00:08:18,498000 --> 00:08:22,335000
 这家伙一直  在银行周围转来转去
+See this man? He's been casing this bank for three days.
 
 46
-00:08:22,172000 --> 00:08:26,182000
-I live across the street. His accomplice is around the corner in an Alfa Romeo,
+00:08:22,172000 --> 00:08:26,214000
 还有一个就在那里  他一直装作看报纸
+I live across the street. His accomplice is around the corner in an Alfa Romeo,
 
 47
-00:08:26,182000 --> 00:08:28,182000
+00:08:26,182000 --> 00:08:28,591000
 reading <i>Le Monde -</i> upside down.
 在车上看哨
 
 48
-00:08:28,182000 --> 00:08:30,102000
+00:08:28,182000 --> 00:08:30,760000
 I only wish to do my duty.
 因为我的所有财产都在
 
 49
-00:08:30,102000 --> 00:08:32,182000
+00:08:30,102000 --> 00:08:32,971000
 My life's savings are in this bank.
 这个银行所以我向你告发
 
@@ -249,22 +247,22 @@ What do you suppose is in his bag?
 请搜查他的包
 
 51
-00:08:58,212000 --> 00:09:00,212000
+00:08:58,212000 --> 00:09:01,374000
 Has my apartment been vacated?
 房子已经空出来了吧
 
 52
-00:09:00,212000 --> 00:09:04,222000
+00:09:00,212000 --> 00:09:04,419000
 Not yet, Monsieur Schaunard, but very soon.
 我马上收拾好
 
 53
-00:09:04,222000 --> 00:09:08,222000
+00:09:04,222000 --> 00:09:08,631000
 The previous tenant, a writer, has gone to get a moving van.
 之前住过的人把箱子  放在我这里就走了
 
 54
-00:09:08,222000 --> 00:09:12,232000
+00:09:08,222000 --> 00:09:12,761000
 In the meantime, you may leave your furniture outside.
 我帮你搬东西到走廊
 
@@ -274,7 +272,7 @@ I'm afraid. If it rains, my furniture will be damaged.
 如果下雨家具会潮湿
 
 56
-00:09:22,242000 --> 00:09:25,242000
+00:09:22,242000 --> 00:09:25,273000
 You will forgive me if I ask your profession.
 你是做什么工作的
 
@@ -284,17 +282,17 @@ You neglected to indicate that on the lease.
 在合同上没有
 
 58
-00:09:31,242000 --> 00:09:36,076000
+00:09:31,242000 --> 00:09:37,242000
 Leave the piano here and return at once to my old lodgings
 钢琴就这么放着 到公寓  把高档家私搬过来吧
 
 59
 00:09:36,076000 --> 00:09:42,242000
-for the rest of my priceless furnishings and works of art.
 还有我的艺术品
+for the rest of my priceless furnishings and works of art.
 
 60
-00:09:51,174000 --> 00:09:56,012000
+00:09:51,174000 --> 00:09:56,272000
 Henri, from the Ministry of War. It just arrived by courier.
 是国防大臣的信 刚刚到
 
@@ -304,89 +302,88 @@ The Ministry of War.
 国防大臣
 
 62
-00:10:00,272000 --> 00:10:03,478000
+00:10:00,272000 --> 00:10:04,272000
 It must be the pension
 是我期待已久的  养老金领取书
 
 63
 00:10:03,478000 --> 00:10:09,282000
-that I've been waiting for all these years. At last some recognition of my achievements.
 终于可以拿到钱了
+that I've been waiting for all these years. At last some recognition of my achievements.
 
 64
-00:10:09,282000 --> 00:10:13,863000
+00:10:09,282000 --> 00:10:14,282000
 <i>Dear Monsieur Bernard, courtesy demands that I inform you</i>
 "贝尔那先生" "我把我的不幸遭遇告诉你"
 
 65
-00:10:13,863000 --> 00:10:19,292000
-<i>of the unfortunate predicament I find myself in</i> <i>that prevents me at this time from observing the custom</i>
+00:10:13,863000 --> 00:10:19,369000
 "这次之后"
+<i>of the unfortunate predicament I find myself in</i> <i>that prevents me at this time from observing the custom</i>
 
 66
-00:10:19,292000 --> 00:10:22,302000
+00:10:19,292000 --> 00:10:23,206000
 <i>requiring that rent be paid, especially when it's due.</i>
 "不会再付房租了"
 
 67
-00:10:22,302000 --> 00:10:25,458000
+00:10:22,302000 --> 00:10:26,292000
 <i>Until this morning I had hoped</i>
 "到今天早上为止  我都想付清房租"
 
 68
-00:10:25,458000 --> 00:10:28,302000
+00:10:25,458000 --> 00:10:29,045000
 <i>to honor this lo very day by paying my rent</i> - <i>ah, delusion!</i>
-"到今天早上为止  我都想付清房租"
 
 69
-00:10:28,302000 --> 00:10:31,302000
+00:10:28,302000 --> 00:10:32,757000
 <i>As I slept cradled in false certainty, misfortune -</i>
 "但和我的期待相反"
 
 70
-00:10:31,302000 --> 00:10:35,312000
+00:10:31,302000 --> 00:10:35,802000
 Ananke <i>in Greek - dashed my hopes.</i>
 "我的这些想法被打破了"
 
 71
-00:10:35,312000 --> 00:10:38,312000
+00:10:35,312000 --> 00:10:38,930000
 <i>Certain sizable sums I expected did not materialize,</i>
 "我没有钱"
 
 72
-00:10:38,312000 --> 00:10:42,322000
+00:10:38,312000 --> 00:10:43,184000
 <i>but our beautiful France and I will see better days - have no doubt of that.</i>
 "我相信幸运之神  会降临在法国和我身上"
 
 73
-00:10:42,322000 --> 00:10:47,322000
+00:10:42,322000 --> 00:10:47,355000
 <i>The moment we do, I shall hasten to inform you of it</i>
 "有了收入之后我会马上通知你"
 
 74
-00:10:47,322000 --> 00:10:51,332000
+00:10:47,322000 --> 00:10:51,359000
 <i>and to remove from my lodgings my precious possessions,</i>
 "再取回留在房子里的  我的贵重品"
 
 75
-00:10:51,332000 --> 00:10:55,155000
+00:10:51,332000 --> 00:10:55,332000
 <i>which I leave to your safekeeping and to that of the law,</i>
 那之前先让您  和法律来保护它吧
 
 76
-00:10:55,155000 --> 00:10:58,332000
+00:10:55,155000 --> 00:10:58,825000
 <i>which restrains you from selling them for one year.</i>
 "不要在一年之内  处理那些东西"
 
 77
-00:10:58,332000 --> 00:11:02,120000
+00:10:58,332000 --> 00:11:02,332000
 <i>Until then you are at liberty to use</i>
 "那之前请随便使用房间"
 
 78
-00:11:02,120000 --> 00:11:07,342000
-<i>the luxurious lodgings in which I have resided.</i> <i>In affirmation of my consent, I hereby affix my signature.</i>
+00:11:02,120000 --> 00:11:08,209000
 "我在这里把这件事告诉您"
+<i>the luxurious lodgings in which I have resided.</i> <i>In affirmation of my consent, I hereby affix my signature.</i>
 
 79
 00:11:07,342000 --> 00:11:11,332000
@@ -399,14 +396,14 @@ Ananke <i>in Greek - dashed my hopes.</i>
 给我半份鳟鱼
 
 81
-00:11:48,382000 --> 00:11:50,382000
+00:11:48,382000 --> 00:11:50,877000
 That's a strange order.
 奇怪的要求
 
 82
-00:11:50,382000 --> 00:11:54,392000
-On the contrary. This method yields on average
+00:11:50,382000 --> 00:11:55,340000
 那是经过计算之后得出来的
+On the contrary. This method yields on average
 
 83
 00:11:54,392000 --> 00:11:58,468000
@@ -414,7 +411,7 @@ a quarter more than ordering a full portion.
 这比要一份量更多
 
 84
-00:12:10,412000 --> 00:12:11,412000
+00:12:10,412000 --> 00:12:12,357000
 Where is my order?
 我的呢
 
@@ -424,12 +421,12 @@ I'm afraid this gentleman got the last trout.
 鳟鱼料理已经不做了
 
 86
-00:12:20,422000 --> 00:12:24,422000
+00:12:20,422000 --> 00:12:24,494000
 May I invite you to partake of this course with me?
 不介意和我分吧
 
 87
-00:12:24,422000 --> 00:12:27,422000
+00:12:24,422000 --> 00:12:27,664000
 I would not deprive you of what is yours, sir.
 我不想夺取你的食物
 
@@ -444,17 +441,17 @@ In that case, sir...
 那我就不客气了
 
 90
-00:12:42,345000 --> 00:12:44,442000
+00:12:42,345000 --> 00:12:45,139000
 Permit me to refrain from serving you the head.
 鱼头我吃
 
 91
-00:12:44,442000 --> 00:12:47,442000
+00:12:44,442000 --> 00:12:47,600000
 That I couldn't allow.
 这对你不公平
 
 92
-00:12:47,442000 --> 00:12:50,452000
+00:12:47,442000 --> 00:12:51,354000
 For if the head is man's noblest appendage,
 人类的大脑中  需要一些养分
 
@@ -464,19 +461,18 @@ it's the most unpleasant part of a trout.
 鳟鱼的头可以满足这些需要
 
 94
-00:12:56,452000 --> 00:13:00,405000
+00:12:56,452000 --> 00:13:00,442000
 Two heads! This trout is bicephalic,
 有两个头双头  原本是希腊语
 
 95
-00:13:00,405000 --> 00:13:05,076000
-a word which comes from the Greek and means...
+00:13:00,405000 --> 00:13:06,452000
 怎么会有双头的鳟鱼
+a word which comes from the Greek and means...
 
 96
 00:13:05,076000 --> 00:13:07,120000
 precisely that.
-怎么会有双头的鳟鱼
 
 97
 00:13:08,462000 --> 00:13:13,462000
@@ -489,32 +485,32 @@ The sauce was delicious.
 真是好吃的料理
 
 99
-00:13:23,482000 --> 00:13:27,482000
-True. It was prepared in the province of Béarn,
+00:13:23,482000 --> 00:13:28,099000
 我也这么认为
+True. It was prepared in the province of Béarn,
 
 100
-00:13:27,482000 --> 00:13:30,492000
+00:13:27,482000 --> 00:13:31,311000
 and its fine reputation is richly deserved.
 这里都是些有名的料理
 
 101
-00:13:30,492000 --> 00:13:34,480000
+00:13:30,492000 --> 00:13:34,492000
 You seem very learned. You're not from here?
 你怎么会对这里这么熟悉  是巴黎人吗
 
 102
-00:13:34,480000 --> 00:13:37,492000
-No. I come from Albania
+00:13:34,480000 --> 00:13:37,734000
 我是阿尔巴尼亚人
+No. I come from Albania
 
 103
-00:13:37,492000 --> 00:13:41,321000
+00:13:37,492000 --> 00:13:41,502000
 and have lived in Paris only three years now.
 住在巴黎已经有3年了
 
 104
-00:13:41,321000 --> 00:13:43,502000
+00:13:41,321000 --> 00:13:44,198000
 Yet you've already mastered our language.
 讲法语真棒
 
@@ -524,12 +520,12 @@ My nursemaid was French, from Barcelona.
 我的乳娘是从巴塞罗那  来的法国人
 
 106
-00:13:48,502000 --> 00:13:52,512000
-My name is Rodolfo, and I'm a painter.
+00:13:48,502000 --> 00:13:52,707000
 我叫罗德洛夫是画家
+My name is Rodolfo, and I'm a painter.
 
 107
-00:13:52,512000 --> 00:13:54,512000
+00:13:52,512000 --> 00:13:54,959000
 Marcel Marx, writer.
 我是作家马科斯
 
@@ -539,7 +535,7 @@ May I offer you a bottle of wine?
 我想请你喝酒
 
 109
-00:13:57,512000 --> 00:13:59,522000
+00:13:57,512000 --> 00:13:59,797000
 Only on one condition:
 我有条件
 
@@ -549,7 +545,7 @@ that I see to the coffee and the rest.
 咖啡由我自己拿
 
 111
-00:14:03,522000 --> 00:14:05,522000
+00:14:03,522000 --> 00:14:07,263000
 As a painter, don't you think
 作为画家你有什么意见
 
@@ -561,12 +557,11 @@ that Malevich's <i>Black</i> Square
 113
 00:14:09,932000 --> 00:14:12,185000
 is as lethal a blow to painting
-就像马雷奇  改变绘画的方向一样
 
 114
-00:14:12,310000 --> 00:14:16,532000
-as the school of Vienna - Schoenberg, Berg, Webern, and the rest - is to music?
+00:14:12,310000 --> 00:14:17,482000
 肖恩等流派的人
+as the school of Vienna - Schoenberg, Berg, Webern, and the rest - is to music?
 
 115
 00:14:16,532000 --> 00:14:20,532000
@@ -575,48 +570,45 @@ as the school of Vienna - Schoenberg, Berg, Webern, and the rest - is to music?
 
 116
 00:14:32,455000 --> 00:14:36,793000
-I live just around the corner. We may continue our discussion there.
 我住在附近  到我那里继续说吧
+I live just around the corner. We may continue our discussion there.
 
 117
 00:14:40,562000 --> 00:14:45,551000
-“I floated down impassive rivers, unguided now by bargemen's hands.
 "我喝醉了  坐在船上在河上行驶"
+“I floated down impassive rivers, unguided now by bargemen's hands.
 
 118
-00:14:45,562000 --> 00:14:48,304000
+00:14:45,562000 --> 00:14:49,552000
 Howling natives had hauled them up for targets
 "不幸的是  船被印第安人打沉了"
 
 119
 00:14:48,304000 --> 00:14:52,975000
-and nailed them naked to painted stakes.” Beautiful stuff, Rimbaud.
 是兰博
+and nailed them naked to painted stakes.” Beautiful stuff, Rimbaud.
 
 120
 00:14:53,976000 --> 00:14:58,314000
 He and Verlaine argued vehemently about -
-是兰博
 
 121
 00:14:58,481000 --> 00:15:01,401000
 Anyway, come inside.
-是兰博
 
 122
-00:15:02,582000 --> 00:15:04,582000
+00:15:02,582000 --> 00:15:05,113000
 This is where I live.
 这里就是我家
 
 123
 00:15:04,582000 --> 00:15:06,572000
 谢谢
-这里就是我家
 
 124
 00:15:12,537000 --> 00:15:17,708000
-Strange. The key's in the lock, though I put it in my pocket this morning -
 糟了  我把钥匙放在房间窗户上
+Strange. The key's in the lock, though I put it in my pocket this morning -
 
 125
 00:15:21,212000 --> 00:15:23,602000
@@ -634,24 +626,24 @@ Someone's playing the violin. These aren't my lodgings.
 是钢琴声音真奇怪
 
 128
-00:15:54,632000 --> 00:15:56,632000
+00:15:54,632000 --> 00:15:57,206000
 May I help you?
 有什么事吗
 
 129
-00:15:56,632000 --> 00:16:00,642000
+00:15:56,632000 --> 00:16:00,668000
 I was mistaken. This isn't my apartment.
 我还以为这是我的房子
 
 130
-00:16:00,642000 --> 00:16:04,088000
+00:16:00,642000 --> 00:16:04,632000
 I beg your pardon on my friend's behalf.
 失礼了他喝醉了
 
 131
-00:16:04,088000 --> 00:16:07,925000
-He's exceptionally drunk. Wait, this is my place.
+00:16:04,088000 --> 00:16:08,652000
 我还以为是我的房子...
+He's exceptionally drunk. Wait, this is my place.
 
 132
 00:16:07,925000 --> 00:16:12,642000
@@ -659,82 +651,81 @@ That's my finery!
 那是我的衣服
 
 133
-00:16:13,652000 --> 00:16:15,652000
+00:16:13,652000 --> 00:16:15,725000
 And what's this?
 这是什么
 
 134
 00:16:15,652000 --> 00:16:20,271000
-My Turkish slippers, given to me by beloved hands!
 这是朋友送给我的拖鞋
+My Turkish slippers, given to me by beloved hands!
 
 135
-00:16:23,662000 --> 00:16:27,672000
+00:16:23,662000 --> 00:16:28,404000
 “Marcel Marx is hereby obligated to vacate the premises
 "马歇尔·马科斯先生  到8日正午之前"
 
 136
-00:16:27,672000 --> 00:16:30,672000
+00:16:27,672000 --> 00:16:30,865000
 by noon on February eighth...”
 "请马上退房"
 
 137
-00:16:30,672000 --> 00:16:33,993000
+00:16:30,672000 --> 00:16:34,662000
 Am I not the Marcel Marx
 我就是被他赶走的  马歇尔·马科斯
 
 138
 00:16:33,993000 --> 00:16:36,454000
 whom the landlord evicted?
-我就是被他赶走的  马歇尔·马科斯
 
 139
-00:16:36,672000 --> 00:16:39,682000
+00:16:36,672000 --> 00:16:39,999000
 The situation is as follows.
 我听说过
 
 140
-00:16:39,682000 --> 00:16:41,792000
+00:16:39,682000 --> 00:16:42,682000
 By law
 法律上这里是我的房间
 
 141
-00:16:41,792000 --> 00:16:47,692000
-the premises are mine, for you were evicted, and I paid in advance.
+00:16:41,792000 --> 00:16:47,840000
 你被房东赶走  我就搬进来住了
+the premises are mine, for you were evicted, and I paid in advance.
 
 142
-00:16:47,692000 --> 00:16:50,692000
+00:16:47,692000 --> 00:16:51,177000
 Yes, for the premises, but not the furnishings.
 房子是你的没错  但这些家具就不是
 
 143
-00:16:50,692000 --> 00:16:53,429000
+00:16:50,692000 --> 00:16:54,682000
 If I pay up, I may remove them legally -
 即使没有交房租  家具也是我的
 
 144
 00:16:53,429000 --> 00:17:00,019000
-or even illegally, if it were possible. Thus you have furnishings but no lodgings,
 你可以拿回家具  但没有房子
+or even illegally, if it were possible. Thus you have furnishings but no lodgings,
 
 145
-00:17:00,144000 --> 00:17:02,702000
+00:17:00,144000 --> 00:17:03,648000
 and I have lodgings but no furniture. - Precisely.
 我不会让你住进来
 
 146
-00:17:02,702000 --> 00:17:04,702000
+00:17:02,702000 --> 00:17:05,399000
 I like the apartment.
 这里真是不错的房子
 
 147
-00:17:04,702000 --> 00:17:07,712000
+00:17:04,702000 --> 00:17:08,569000
 And I've never liked it more. - Pardon?
 是很脏的房子
 
 148
-00:17:07,712000 --> 00:17:10,712000
+00:17:07,712000 --> 00:17:11,322000
 Never as much as now, and I know what I'm saying.
 但给你住就有点可惜了
 
@@ -744,7 +735,7 @@ What do you say we lubricate this explanation?
 慢点说吧
 
 150
-00:17:25,722000 --> 00:17:27,732000
+00:17:25,722000 --> 00:17:28,130000
 What an amazing pipe you have.
 真是不错的茬子
 
@@ -764,12 +755,12 @@ You appear to be a man of musical bent.
 你是音乐迷吗
 
 154
-00:17:39,742000 --> 00:17:41,742000
+00:17:39,742000 --> 00:17:41,769000
 A composer.
 我是作曲家
 
 155
-00:17:41,742000 --> 00:17:44,742000
+00:17:41,742000 --> 00:17:44,814000
 I'm writing a piece called
 现在正准备新的曲子
 
@@ -779,7 +770,7 @@ I'm writing a piece called
 是叫做  "蓝色对艺术的影响"的作品
 
 157
-00:20:31,522000 --> 00:20:34,912000
+00:20:31,522000 --> 00:20:34,984000
 - I can't see anyone just now. - Why not?
 现在不行 为什么
 
@@ -789,7 +780,7 @@ Good morning.
 中午好
 
 159
-00:20:37,922000 --> 00:20:39,922000
+00:20:37,922000 --> 00:20:40,114000
 Good morning, mademoiselle.
 马托摩洁丽
 
@@ -799,7 +790,7 @@ Good morning, mademoiselle.
 这就是原因 知道了
 
 161
-00:20:43,922000 --> 00:20:47,705000
+00:20:43,922000 --> 00:20:47,932000
 All the same, perhaps you might lend me 1,000 francs.
 借我100法郎
 
@@ -809,44 +800,43 @@ I'm all out of paint,
 涂料用完了
 
 163
-00:20:49,932000 --> 00:20:52,932000
+00:20:49,932000 --> 00:20:53,335000
 and I can't complete my masterpiece.
 我完成不了  正在创作中的画
 
 164
-00:20:52,932000 --> 00:20:56,714000
+00:20:52,932000 --> 00:20:56,942000
 You're asking a lot. I'm broke at the moment.
 我也是个穷光蛋
 
 165
-00:20:56,714000 --> 00:20:58,942000
+00:20:56,714000 --> 00:20:59,258000
 Couldn't you borrow it from the girl?
 你跟那个女人说说看
 
 166
-00:20:58,942000 --> 00:21:02,942000
+00:20:58,942000 --> 00:21:03,137000
 I couldn't do that. We just met yesterday.
 不行她是昨天才认识的
 
 167
-00:21:02,942000 --> 00:21:06,223000
+00:21:02,942000 --> 00:21:07,942000
 - And Schaunard? - No one's seen him all week.
 肖纳罗呢 这一周一直没见到他  回去吧
 
 168
 00:21:06,223000 --> 00:21:07,683000
 Good-bye.
-肖纳罗呢 这一周一直没见到他  回去吧
 
 169
-00:21:15,858000 --> 00:21:17,735000
+00:21:15,858000 --> 00:21:17,962000
 Where are you going?
 你去哪里
 
 170
 00:21:17,735000 --> 00:21:21,962000
-To your place... to collect what you owe me.
 我想要回借给你的钱
+To your place... to collect what you owe me.
 
 171
 00:21:21,962000 --> 00:21:24,867000
@@ -874,67 +864,65 @@ Beat it.
 快点消失
 
 176
-00:21:55,002000 --> 00:21:58,234000
+00:21:55,002000 --> 00:21:58,992000
 What if she comes back to you?
 如果卖掉戒指  你妻子会难过的
 
 177
 00:21:58,234000 --> 00:22:00,569000
 You'd no longer have the ring.
-如果卖掉戒指  你妻子会难过的
 
 178
-00:22:01,002000 --> 00:22:03,781000
+00:22:01,002000 --> 00:22:04,002000
 She won't come back.
 她不会再回来了
 
 179
-00:22:03,781000 --> 00:22:07,326000
+00:22:03,781000 --> 00:22:08,002000
 She ran off with an American.
 她和开卡迪拉克的  美国人跑掉了
 
 180
-00:22:07,326000 --> 00:22:11,012000
-He had a Cadillac. It's a shame about the children.
+00:22:07,326000 --> 00:22:11,455000
 留下孩子们
+He had a Cadillac. It's a shame about the children.
 
 181
-00:22:11,012000 --> 00:22:13,749000
+00:22:11,012000 --> 00:22:15,002000
 She left them with me,
 因为没有钱  我无法买东西给孩子们吃
 
 182
-00:22:13,749000 --> 00:22:17,022000
+00:22:13,749000 --> 00:22:17,044000
 and I don't have enough to feed them.
-因为没有钱  我无法买东西给孩子们吃
 
 183
-00:22:17,022000 --> 00:22:20,756000
+00:22:17,022000 --> 00:22:21,022000
 They cry out from hunger in the night.
 晚上因为肚饿哭个不停
 
 184
-00:22:20,756000 --> 00:22:22,508000
+00:22:20,756000 --> 00:22:23,022000
 How old are they?
 孩子几岁了
 
 185
-00:22:22,508000 --> 00:22:25,094000
-Fourteen... nine...
+00:22:22,508000 --> 00:22:26,032000
 14岁小的9岁
+Fourteen... nine...
 
 186
-00:22:25,094000 --> 00:22:28,347000
-seven... six... three... two...
+00:22:25,094000 --> 00:22:29,032000
 还有7岁的6岁的  3岁的和1岁的
+seven... six... three... two...
 
 187
-00:22:28,347000 --> 00:22:31,032000
-one... and the youngest is just six months.
+00:22:28,347000 --> 00:22:31,433000
 最小的只有6个月
+one... and the youngest is just six months.
 
 188
-00:22:31,032000 --> 00:22:33,032000
+00:22:31,032000 --> 00:22:33,477000
 So many!
 真是人山人海啊
 
@@ -970,8 +958,8 @@ With whom?
 
 195
 00:24:22,142000 --> 00:24:26,507000
-I don't know... but she's sitting over there.
 是不知名的女人  正坐在对面
+I don't know... but she's sitting over there.
 
 196
 00:24:27,152000 --> 00:24:29,718000
@@ -1015,13 +1003,12 @@ I will awaken in her heart a passion...
 
 204
 00:24:57,413000 --> 00:25:01,625000
-for you. I will lie
 用甜言蜜语
+for you. I will lie
 
 205
 00:25:01,750000 --> 00:25:03,752000
 shamelessly.
-用甜言蜜语
 
 206
 00:25:10,092000 --> 00:25:12,192000
@@ -1030,8 +1017,8 @@ Good evening.
 
 207
 00:25:12,192000 --> 00:25:17,433000
-See that man over there? He is in love with you.
 坐在对面的男人看上了你
+See that man over there? He is in love with you.
 
 208
 00:25:22,521000 --> 00:25:25,202000
@@ -1044,37 +1031,36 @@ Excuse me. Can I help you?
 怎么了
 
 210
-00:26:00,184000 --> 00:26:01,977000
+00:26:00,184000 --> 00:26:02,242000
 I fell asleep.
 已经睡着了
 
 211
-00:26:01,977000 --> 00:26:03,228000
+00:26:01,977000 --> 00:26:03,252000
 Where are you going?
 你是访客
 
 212
-00:26:03,228000 --> 00:26:04,605000
+00:26:03,228000 --> 00:26:06,252000
 Nowhere.
 我是从乡下过来的
 
 213
-00:26:04,605000 --> 00:26:07,900000
+00:26:04,605000 --> 00:26:09,252000
 I arrived in town, but my girlfriend isn't in.
 来探望朋友但她不在
 
 214
-00:26:07,900000 --> 00:26:12,071000
-I was to stay with her. It's no use waiting.
+00:26:07,900000 --> 00:26:13,252000
 等了也没用还有3年的牢要坐
+I was to stay with her. It's no use waiting.
 
 215
 00:26:12,071000 --> 00:26:15,199000
 She was taken to prison, for three years.
-等了也没用还有3年的牢要坐
 
 216
-00:26:22,272000 --> 00:26:24,272000
+00:26:22,272000 --> 00:26:24,500000
 What am I going to do now?
 真为难
 
@@ -1085,28 +1071,28 @@ I arrived today from Rouen. I don't know anyone here.
 
 218
 00:26:29,272000 --> 00:26:33,884000
-If you like... I live next door.
 我是她的邻居你进来休息吧
+If you like... I live next door.
 
 219
-00:26:34,282000 --> 00:26:38,180000
+00:26:34,282000 --> 00:26:38,282000
 Tell me: Are you a proper French gentleman?
 你是绅士一样的法国人吧
 
 220
-00:26:38,180000 --> 00:26:39,431000
+00:26:38,180000 --> 00:26:40,272000
 No.
 是没错
 
 221
-00:26:39,431000 --> 00:26:43,811000
-I mean, yes... but I'm not French.
+00:26:39,431000 --> 00:26:45,292000
 我是阿尔巴尼亚人
+I mean, yes... but I'm not French.
 
 222
 00:26:43,811000 --> 00:26:47,981000
-I'm Albanian. That Will do.
 好吧
+I'm Albanian. That Will do.
 
 223
 00:27:22,332000 --> 00:27:25,227000
@@ -1114,39 +1100,39 @@ I'm going now and taking the dog with me.
 我带狗出去
 
 224
-00:27:25,332000 --> 00:27:28,332000
+00:27:25,332000 --> 00:27:28,689000
 He sometimes makes noise at night due to nightmares.
 你睡觉的时候狗会吠个不停
 
 225
-00:27:28,332000 --> 00:27:32,342000
-But why? I can sleep on the sofa.
+00:27:28,332000 --> 00:27:32,985000
 为什么出去  我在沙发睡就可以了
+But why? I can sleep on the sofa.
 
 226
-00:27:32,342000 --> 00:27:35,320000
+00:27:32,342000 --> 00:27:36,342000
 It's too hard for a bed.
 在沙发睡觉不会舒服
 
 227
-00:27:35,320000 --> 00:27:39,199000
-And besides... I'm hot-blooded,
+00:27:35,320000 --> 00:27:40,332000
 而且我动作很快你又这么漂亮
+And besides... I'm hot-blooded,
 
 228
-00:27:39,199000 --> 00:27:41,743000
+00:27:39,199000 --> 00:27:42,352000
 and you are very beautiful.
 那你去哪里
 
 229
 00:27:41,743000 --> 00:27:46,582000
-- Where will you go? - To a friend's. He lives close by.
 就在附近的朋友家
+- Where will you go? - To a friend's. He lives close by.
 
 230
 00:27:48,352000 --> 00:27:53,046000
-Sleep peacefully. I'll be back in the morning.
 慢慢睡吧  明天早上我才回来
+Sleep peacefully. I'll be back in the morning.
 
 231
 00:28:37,402000 --> 00:28:39,676000
@@ -1156,10 +1142,9 @@ Baudelaire.
 232
 00:28:59,422000 --> 00:29:03,422000
 "安里·穆杰鲁"
-波特里
 
 233
-00:29:21,452000 --> 00:30:26,512000
+00:29:21,452000 --> 00:30:26,908000
 “I have gone to seek lodgings. Thank you for your kindness. Mimi.” Where's your black coat?
 "我正在找住的地方  谢谢你的款待眯米" 黑色上衣呢
 
@@ -1176,25 +1161,24 @@ You've ruined it.
 236
 00:30:33,040000 --> 00:30:34,958000
 I'm lost.
-已经弄脏了
 
 237
-00:30:36,902000 --> 00:30:38,902000
+00:30:36,902000 --> 00:30:39,546000
 I've been summoned by Gassot, the newspaper czar.
 我和新闻王见面
 
 238
-00:30:38,902000 --> 00:30:42,632000
+00:30:38,902000 --> 00:30:42,892000
 He's founding a fashion magazine, <i>The Sash of Iris,</i>
 我面试一个新增杂志的编辑
 
 239
-00:30:42,632000 --> 00:30:47,912000
-and plans to make me editor in chief. If I show up in this getup, he may change his mind.
+00:30:42,632000 --> 00:30:48,055000
 就这样去的话肯定不行
+and plans to make me editor in chief. If I show up in this getup, he may change his mind.
 
 240
-00:30:47,912000 --> 00:30:50,912000
+00:30:47,912000 --> 00:30:50,932000
 You can't accept his offer anyway.
 那种事情还是早点别想
 
@@ -1204,39 +1188,37 @@ Gassot is a supporter of the right.
 卡索是右翼分子
 
 242
-00:30:54,922000 --> 00:30:57,647000
+00:30:54,922000 --> 00:30:58,922000
 Your principles won't allow you to eat bread
 你想帮榨取民脂民膏的  人做事吗
 
 243
-00:30:57,647000 --> 00:31:02,861000
-bathed in the sweat of the people. - You're mistaken. He's in the left flank of the right wing in Parliament.
+00:30:57,647000 --> 00:31:02,932000
 不他在右翼中也倾向左派
+bathed in the sweat of the people. - You're mistaken. He's in the left flank of the right wing in Parliament.
 
 244
-00:31:02,861000 --> 00:31:05,280000
+00:31:02,861000 --> 00:31:06,932000
 Just yesterday he voted for widows' pensions.
 他提倡遗孤补偿金  而且还认识很多大人物
 
 245
-00:31:05,280000 --> 00:31:09,284000
+00:31:05,280000 --> 00:31:10,922000
 Besides, he knows influential people whom I'll convince to commission
 这是你们两个出名的好机会
 
 246
-00:31:09,284000 --> 00:31:11,942000
+00:31:09,284000 --> 00:31:12,579000
 compositions from you and portraits from Rodolfo.
-这是你们两个出名的好机会
 
 247
-00:31:11,942000 --> 00:31:14,623000
+00:31:11,942000 --> 00:31:15,932000
 That changes everything.
 那还可以  你什么时候和他见面
 
 248
 00:31:14,623000 --> 00:31:16,958000
 What time's your meeting?
-那还可以  你什么时候和他见面
 
 249
 00:31:18,627000 --> 00:31:20,932000
@@ -1249,67 +1231,65 @@ There's no time to lose.
 那就快点吧
 
 251
-00:31:26,692000 --> 00:31:28,832000
+00:31:26,692000 --> 00:31:29,429000
 I can polish my shoes black
 把鞋子涂成黑色
 
 252
-00:31:28,832000 --> 00:31:31,973000
+00:31:28,832000 --> 00:31:32,832000
 so no one will notice
 那样的话  就算两边不一样也不易发现
 
 253
 00:31:31,973000 --> 00:31:34,935000
 that one is round-toed and the other pointed.
-那样的话  就算两边不一样也不易发现
 
 254
-00:31:36,332000 --> 00:31:39,481000
+00:31:36,332000 --> 00:31:39,552000
 I need a black coat!
 我需要件黑色上衣
 
 255
-00:31:39,481000 --> 00:31:43,592000
+00:31:39,481000 --> 00:31:43,735000
 I'd give ten years of my life and my right hand for one.
 如果不想点办法
 
 256
-00:31:43,592000 --> 00:31:46,602000
+00:31:43,592000 --> 00:31:46,988000
 - Is Rodolfo the painter in? - That's me.
 洛特勒夫在吗 就是我
 
 257
-00:31:46,602000 --> 00:31:50,033000
+00:31:46,602000 --> 00:31:50,592000
 My cousin recommends your reasonably priced portraits.
 你的肖像画好像很受欢迎
 
 258
 00:31:50,033000 --> 00:31:52,494000
 I'm told they're very good likenesses.
-你的肖像画好像很受欢迎
 
 259
-00:31:52,602000 --> 00:31:54,602000
+00:31:52,602000 --> 00:31:55,705000
 More accurate than photographs.
 比书上的更好
 
 260
-00:31:54,602000 --> 00:31:57,707000
+00:31:54,602000 --> 00:31:58,612000
 He's very talented.
 学校还让他过去教学生
 
 261
-00:31:57,707000 --> 00:32:01,612000
-He won every award at school. My son won an award, and he's only seven.
+00:31:57,707000 --> 00:32:02,796000
 我儿子已经7岁  在学校也拿过奖
+He won every award at school. My son won an award, and he's only seven.
 
 262
-00:32:01,612000 --> 00:32:03,612000
+00:32:01,612000 --> 00:32:04,297000
 A talented child.
 真是神童
 
 263
-00:32:03,612000 --> 00:32:05,612000
+00:32:03,612000 --> 00:32:06,425000
 This portrait you want, Monsieur...
 你要那幅画
 
@@ -1319,84 +1299,84 @@ Blancheron, from Nantes. I'm a sugar producer.
 我是砂糖工厂老板佛兰修罗
 
 265
-00:32:09,622000 --> 00:32:11,622000
+00:32:09,622000 --> 00:32:12,556000
 I've even written books on the subject.
 而且写过关于砂糖的著作
 
 266
-00:32:11,622000 --> 00:32:15,622000
+00:32:11,622000 --> 00:32:16,518000
 I'd like a medium-sized portrait.
 我要一个很大的画
 
 267
-00:32:15,622000 --> 00:32:18,632000
+00:32:15,622000 --> 00:32:19,104000
 Like that one. Who is that of?
 是谁的肖像呢
 
 268
-00:32:18,632000 --> 00:32:19,632000
+00:32:18,632000 --> 00:32:20,939000
 My mother.
 是我母亲
 
 269
-00:32:19,632000 --> 00:32:22,632000
+00:32:19,632000 --> 00:32:23,233000
 How much would one of that size cost?
 那么大的多少钱
 
 270
-00:32:22,632000 --> 00:32:24,632000
+00:32:22,632000 --> 00:32:25,527000
 Between 1,000 and 1,200 francs,
 1000到1200法郎
 
 271
-00:32:24,632000 --> 00:32:27,642000
+00:32:24,632000 --> 00:32:28,029000
 depending on whether your hands show.
 这个价钱很合理
 
 272
-00:32:27,642000 --> 00:32:29,642000
+00:32:27,642000 --> 00:32:31,074000
 - My cousin said 500. - It depends on the season.
 500怎么样
 
 273
-00:32:29,642000 --> 00:32:32,642000
+00:32:29,642000 --> 00:32:33,910000
 Paint prices vary with the season.
 因为画具的价钱也会改变
 
 274
-00:32:32,642000 --> 00:32:36,652000
+00:32:32,642000 --> 00:32:37,330000
 - Interesting. Just like sugar. - Precisely.
 和砂糖市场一样吗 没错
 
 275
-00:32:36,652000 --> 00:32:38,652000
+00:32:36,652000 --> 00:32:40,542000
 - Paint me one for 1,000 francs. - You're making a mistake.
 那就1000法郎
 
 276
-00:32:38,652000 --> 00:32:44,838000
+00:32:38,652000 --> 00:32:45,652000
 For 200 more, he'll paint your hands holding your book on sugar.
 如果再给多200法郎 可以把你的书加到画里面
 
 277
-00:32:44,838000 --> 00:32:47,662000
+00:32:44,838000 --> 00:32:48,341000
 You simply must do it. - Would that look good?
 就这样定了
 
 278
-00:32:47,662000 --> 00:32:50,385000
+00:32:47,662000 --> 00:32:51,662000
 Exceptionally good.
 就在你家里画吗
 
 279
-00:32:50,385000 --> 00:32:52,846000
+00:32:50,385000 --> 00:32:53,662000
 Is the portrait for your home?
 在我的寝室画
 
 280
 00:32:52,846000 --> 00:32:57,662000
-Yes, the living room. Then you must be in a dressing gown.
 那就穿便装最好了
+Yes, the living room. Then you must be in a dressing gown.
 
 281
 00:32:58,672000 --> 00:33:01,313000
@@ -1409,14 +1389,14 @@ Take off your coat.
 换衣服
 
 283
-00:33:08,682000 --> 00:33:10,682000
+00:33:08,682000 --> 00:33:11,072000
 I don't have a dressing gown with me.
 我没有便装
 
 284
 00:33:10,682000 --> 00:33:15,202000
-Don't worry. My friend will lend you his.
 不用担心穿着这个就可以
+Don't worry. My friend will lend you his.
 
 285
 00:33:23,692000 --> 00:33:28,548000
@@ -1424,12 +1404,12 @@ Marcel, please hang up the gentleman's coat.
 马歇尔把上衣挂好
 
 286
-00:33:29,702000 --> 00:33:31,702000
+00:33:29,702000 --> 00:33:32,886000
 How unfortunate. I'll be late for supper.
 我现在有点饿了
 
 287
-00:33:31,702000 --> 00:33:36,712000
+00:33:31,702000 --> 00:33:36,973000
 The restaurant downstairs will send up anything we want.
 下面的餐厅可以送餐过来
 
@@ -1439,22 +1419,22 @@ I'll go order something.
 我可以帮你叫
 
 289
-00:33:53,722000 --> 00:33:57,732000
+00:33:53,722000 --> 00:33:58,620000
 I have several ideas to improve the contents of your magazine.
 那是杂志"彩虹"的创刊号
 
 290
-00:33:57,732000 --> 00:34:02,732000
+00:33:57,732000 --> 00:34:02,999000
 For instance, one could - this is just one possibility -
 我对此有很好的计划
 
 291
-00:34:02,732000 --> 00:34:04,732000
+00:34:02,732000 --> 00:34:05,252000
 one could publish a play,
 我们可以连载戏曲
 
 292
-00:34:04,732000 --> 00:34:07,742000
+00:34:04,732000 --> 00:34:08,797000
 and on the facing pages show the characters
 豪华的登场人物
 
@@ -1464,27 +1444,26 @@ dressed in a certain way as if it were the fashion -
 穿着最新流行的服装  在那里演绎故事
 
 294
-00:34:12,801000 --> 00:34:16,972000
-the latest fashion, of course. One could also envision
+00:34:12,801000 --> 00:34:17,742000
 我还有一个  正在准备中的计划
+the latest fashion, of course. One could also envision
 
 295
 00:34:16,972000 --> 00:34:23,687000
-other things, like, for example, publishing the works of Baudelaire
 把波特里的生涯  写成连载怎么样
+other things, like, for example, publishing the works of Baudelaire
 
 296
 00:34:23,812000 --> 00:34:25,855000
 in serial form -
-把波特里的生涯  写成连载怎么样
 
 297
-00:34:38,772000 --> 00:34:40,772000
+00:34:38,772000 --> 00:34:41,496000
 <i>When may I come for it?</i>
 什么时候完成
 
 298
-00:34:40,772000 --> 00:34:44,782000
+00:34:40,772000 --> 00:34:45,041000
 I'll finish it tomorrow and bring it to you.
 明天早上我会送到府上
 
@@ -1494,7 +1473,7 @@ I'd prefer to pay at once so as not to remain in debt to you.
 我想拿到画之后再给你钱
 
 300
-00:34:50,782000 --> 00:34:52,782000
+00:34:50,782000 --> 00:34:53,383000
 We're alike in that respect.
 可以
 
@@ -1509,12 +1488,12 @@ Now, if you'd get me my coat...
 那我的上衣呢
 
 303
-00:35:11,802000 --> 00:35:14,404000
+00:35:11,802000 --> 00:35:14,802000
 It was very dusty, so I had it laundered.
 我已经洗干净了
 
 304
-00:35:14,404000 --> 00:35:15,812000
+00:35:14,404000 --> 00:35:16,781000
 They only charged 40 francs.
 洗衣服花了40法郎
 
@@ -1534,19 +1513,18 @@ Shit!
 笨蛋
 
 308
-00:35:57,852000 --> 00:35:59,824000
+00:35:57,852000 --> 00:35:59,852000
 The swine!
 蠢猪
 
 309
-00:35:59,824000 --> 00:36:02,744000
+00:35:59,824000 --> 00:36:03,842000
 He wanted to charge me
 才走了几公里就叫我给钱
 
 310
 00:36:02,744000 --> 00:36:04,704000
 for a few miles.
-才走了几公里就叫我给钱
 
 311
 00:36:10,862000 --> 00:36:13,862000
@@ -1554,7 +1532,7 @@ There must be 60,000 francs there.
 这里该有6万法郎吧
 
 312
-00:36:13,862000 --> 00:36:15,872000
+00:36:13,862000 --> 00:36:16,341000
 15,240, to be precise -
 正确的数字是1万5240法郎
 
@@ -1564,52 +1542,51 @@ an advance for producing a sample issue of The Sash of Iris.
 这是做  "彩虹"创刊编辑的订金
 
 314
-00:36:20,872000 --> 00:36:22,872000
+00:36:20,872000 --> 00:36:23,264000
 Here's my plan.
 我决定了
 
 315
-00:36:22,872000 --> 00:36:25,767000
+00:36:22,872000 --> 00:36:26,872000
 Secure from life's material woes,
 为了脱离贫困  我要拼命做事
 
 316
-00:36:25,767000 --> 00:36:30,882000
-I intend to go about this seriously. First I'll get rid of these rags and dress decently
+00:36:25,767000 --> 00:36:31,272000
 首先要买一套漂亮的衣服
+I intend to go about this seriously. First I'll get rid of these rags and dress decently
 
 317
-00:36:30,882000 --> 00:36:33,882000
+00:36:30,882000 --> 00:36:34,109000
 so that the fashion salons will take me seriously.
 不能让他们小看我
 
 318
-00:36:33,882000 --> 00:36:36,319000
+00:36:33,882000 --> 00:36:37,892000
 If you'll follow my example,
 你们也这么做吧  做点关于广告的事情
 
 319
-00:36:36,319000 --> 00:36:39,531000
+00:36:36,319000 --> 00:36:41,882000
 I can hire you as door-to-door ad salesmen.
 他们马上会给你生活费
 
 320
 00:36:39,531000 --> 00:36:43,451000
 Until then, let a strict economy govern our lives.
-他们马上会给你生活费
 
 321
-00:36:43,892000 --> 00:36:45,902000
+00:36:43,892000 --> 00:36:46,246000
 I accept wholeheartedly.
 大家好好合作
 
 322
-00:36:45,902000 --> 00:36:50,902000
-But to start with, give me a couple of thousand francs.
+00:36:45,902000 --> 00:36:51,126000
 先给我2000～3000法郎
+But to start with, give me a couple of thousand francs.
 
 323
-00:36:50,902000 --> 00:36:51,902000
+00:36:50,902000 --> 00:36:52,293000
 Why?
 为什么
 
@@ -1639,47 +1616,46 @@ Yes. Then I can tell you more about my new job.
 那边吃边说吧
 
 329
-00:37:11,922000 --> 00:37:15,932000
+00:37:11,922000 --> 00:37:16,443000
 There's an excellent restaurant not far from here.
 这附近有一个高级餐厅
 
 330
-00:37:15,932000 --> 00:37:18,653000
+00:37:15,932000 --> 00:37:19,922000
 It's a bit expensive,
 价格合理东西也好吃
 
 331
 00:37:18,653000 --> 00:37:22,615000
 but we'll make it up in the time we save.
-价格合理东西也好吃
 
 332
-00:37:22,932000 --> 00:37:25,535000
+00:37:22,932000 --> 00:37:26,932000
 Very well, but starting tomorrow
 只有今天晚上  明天开始要节约生活
 
 333
 00:37:25,535000 --> 00:37:33,168000
-we shall devise even greater means of economizing. No more eating out. We'll hire a woman to cook for us.
 取消在外面就餐  一切都在家里吃
+we shall devise even greater means of economizing. No more eating out. We'll hire a woman to cook for us.
 
 334
-00:37:33,952000 --> 00:37:37,952000
-It would be wiser to take on a manservant who could then double as cook.
+00:37:33,952000 --> 00:37:38,631000
 雇一个庸人  来给我们做饭就好了
+It would be wiser to take on a manservant who could then double as cook.
 
 335
-00:37:37,952000 --> 00:37:40,952000
+00:37:37,952000 --> 00:37:41,509000
 Our household would be in impeccable order
 房子会变得很漂亮  而且也不贵
 
 336
-00:37:40,952000 --> 00:37:43,962000
+00:37:40,952000 --> 00:37:44,012000
 and we'd have much more time to work
 我们也可以专心做事
 
 337
-00:37:43,962000 --> 00:37:47,962000
+00:37:43,962000 --> 00:37:48,683000
 with him to shine our shoes and see to our errands.
 庸人会替你们擦好鞋子
 
@@ -1689,7 +1665,7 @@ Then we'll need larger accommodations.
 若那样就需要一个很大的房子
 
 339
-00:37:51,962000 --> 00:37:54,731000
+00:37:51,962000 --> 00:37:54,972000
 That, in any case, is unavoidable
 没错需要一个大点的楼房
 
@@ -1710,8 +1686,8 @@ A pack of Celtiques, please.
 
 343
 00:38:24,002000 --> 00:38:28,389000
-Good evening, Mimi. You found work.
 眯米找到事做了
+Good evening, Mimi. You found work.
 
 344
 00:38:29,002000 --> 00:38:31,002000
@@ -1719,24 +1695,23 @@ As you can see.
 没错
 
 345
-00:38:31,002000 --> 00:38:35,230000
+00:38:31,002000 --> 00:38:36,002000
 - And a place to live? - It comes with the job.
 房子也找到了吗 有职工宿舍你们去酒吧吗
 
 346
-00:38:35,230000 --> 00:38:41,012000
-Are you going to the nightclub? I just came along with my friends.
+00:38:35,230000 --> 00:38:41,486000
 没有只是碰巧到这里而已
+Are you going to the nightclub? I just came along with my friends.
 
 347
-00:38:41,012000 --> 00:38:43,738000
+00:38:41,012000 --> 00:38:45,012000
 I don't care for modern music.
 虽然会喝酒  但我不喜欢嘈杂的音乐
 
 348
 00:38:43,738000 --> 00:38:46,032000
 I'm going to have a drink.
-虽然会喝酒  但我不喜欢嘈杂的音乐
 
 349
 00:38:49,022000 --> 00:38:51,913000
@@ -1744,7 +1719,7 @@ A glass of water, please.
 给我杯水吧
 
 350
-00:39:12,042000 --> 00:39:15,052000
+00:39:12,042000 --> 00:39:15,270000
 <i>- Who was that? - A regular.</i>
 那个男人是 他是我们这里的常客
 
@@ -1754,17 +1729,16 @@ He has the manners of a peasant.
 看起来不怎么好
 
 352
-00:39:37,072000 --> 00:39:39,711000
+00:39:37,072000 --> 00:39:41,062000
 It's kind of you to see me home,
 你送我回去我很高兴  但我住的地方很远
 
 353
 00:39:39,711000 --> 00:39:42,255000
 but this is nowhere near where I live.
-你送我回去我很高兴  但我住的地方很远
 
 354
-00:39:45,082000 --> 00:39:47,969000
+00:39:45,082000 --> 00:39:48,082000
 I wish you lived in Moscow
 就算是莫斯科也没问题
 
@@ -1810,8 +1784,8 @@ I'll make some coffee.
 
 363
 00:40:19,112000 --> 00:40:23,671000
-In the meanwhile, you may enjoy the city view from my window.
 期间从窗户欣赏街头景象吧
+In the meanwhile, you may enjoy the city view from my window.
 
 364
 00:40:30,122000 --> 00:40:32,132000
@@ -1819,17 +1793,16 @@ They wilted.
 已经枯萎了
 
 365
-00:40:32,132000 --> 00:40:35,224000
+00:40:32,132000 --> 00:40:36,122000
 Had I known, I'd have bought
 早知道买塑料花就好了
 
 366
 00:40:35,224000 --> 00:40:37,018000
 plastic flowers.
-早知道买塑料花就好了
 
 367
-00:40:42,142000 --> 00:40:44,142000
+00:40:42,142000 --> 00:40:44,651000
 What's his name?
 你的狗叫什么
 
@@ -1839,14 +1812,13 @@ Baudelaire.
 波特里
 
 369
-00:40:50,990000 --> 00:40:53,368000
+00:40:50,990000 --> 00:40:54,142000
 I'm out of coffee,
 你先喝咖啡我给你做汤
 
 370
 00:40:53,368000 --> 00:40:55,411000
 but I'll make some soup.
-你先喝咖啡我给你做汤
 
 371
 00:41:54,212000 --> 00:41:58,202000
@@ -1864,7 +1836,7 @@ The sooner to reach the goal.
 你管善良的人这么说吗
 
 374
-00:42:49,262000 --> 00:42:51,272000
+00:42:49,262000 --> 00:42:51,360000
 How much is this?
 多少
 
@@ -1894,54 +1866,53 @@ I live with two other girls.
 和另外两个女人一起住
 
 380
-00:44:33,372000 --> 00:44:38,372000
-They have a male friend in common whom they're constantly fighting over.
+00:44:33,372000 --> 00:44:38,509000
 她们两个为了一个男人  整天在吵架
+They have a male friend in common whom they're constantly fighting over.
 
 381
-00:44:38,372000 --> 00:44:40,382000
+00:44:38,372000 --> 00:44:40,428000
 I don't get it.
 我不觉得怎么样
 
 382
 00:44:40,382000 --> 00:44:45,266000
-The man is stupid and ugly, and married to boot.
 那个男人又蠢又丑陋  而且已经结婚了
+The man is stupid and ugly, and married to boot.
 
 383
-00:44:45,382000 --> 00:44:47,226000
+00:44:45,382000 --> 00:44:47,382000
 Uglier than me?
 比我还丑陋吗
 
 384
-00:44:47,226000 --> 00:44:51,392000
-There's no comparison. Next to him, you're Lino Ventura.
+00:44:47,226000 --> 00:44:51,564000
 你跟他比起来  简直是个美男子
+There's no comparison. Next to him, you're Lino Ventura.
 
 385
-00:44:51,392000 --> 00:44:52,392000
+00:44:51,392000 --> 00:44:53,274000
 Who's that?
 是吗
 
 386
-00:44:52,392000 --> 00:44:55,392000
+00:44:52,392000 --> 00:44:56,485000
 An Italian movie star. You don't know him?
 你像意大利的名演员
 
 387
-00:44:55,392000 --> 00:44:58,613000
+00:44:55,392000 --> 00:44:59,382000
 Forget him.
 忘了意大利的演员  我有话和你说
 
 388
-00:44:58,613000 --> 00:45:03,409000
-Let's talk about me. Why not...
+00:44:58,613000 --> 00:45:04,392000
 不想和我一起生活吗
+Let's talk about me. Why not...
 
 389
 00:45:03,409000 --> 00:45:05,369000
 move in with me?
-不想和我一起生活吗
 
 390
 00:45:06,287000 --> 00:45:09,412000
@@ -1949,27 +1920,27 @@ I'm against marriage in principle,
 虽然我是单身主义者
 
 391
-00:45:09,412000 --> 00:45:13,294000
+00:45:09,412000 --> 00:45:13,412000
 but we could make an exception.
 但我喜欢和你在一起
 
 392
 00:45:13,294000 --> 00:45:18,424000
-You'll stop working. I'll support us both with my paintings.
 不要做事了  我卖画就可以维持生活
+You'll stop working. I'll support us both with my paintings.
 
 393
-00:45:18,799000 --> 00:45:22,345000
+00:45:18,799000 --> 00:45:22,422000
 And what would I do?
 那我做什么
 
 394
-00:45:22,345000 --> 00:45:26,307000
+00:45:22,345000 --> 00:45:27,422000
 You'd walk Baudelaire, clean the place -
 带狗散步 还有打扫房间和其它家务
 
 395
-00:45:26,307000 --> 00:45:28,142000
+00:45:26,307000 --> 00:45:29,432000
 that sort of thing.
 做饭吗
 
@@ -1979,12 +1950,12 @@ Are you serious?
 不用
 
 397
-00:45:30,432000 --> 00:45:32,432000
+00:45:30,432000 --> 00:45:32,897000
 I'll clean...
 我会做
 
 398
-00:45:32,432000 --> 00:45:36,432000
+00:45:32,432000 --> 00:45:36,943000
 and you can look out the window at the park.
 你只要  从窗户看着公园就可以了
 
@@ -1994,14 +1965,14 @@ In the evenings we'll go to the opera.
 晚上可以到剧院看戏
 
 400
-00:45:58,462000 --> 00:46:02,343000
+00:45:58,462000 --> 00:46:02,452000
 My wallet's been stolen.
 我的钱包被偷了  你带钱了吗
 
 401
 00:46:02,343000 --> 00:46:08,452000
-Do you have any money? Just a few francs.
 我只有几法郎而已
+Do you have any money? Just a few francs.
 
 402
 00:46:30,492000 --> 00:46:34,482000
@@ -2014,22 +1985,22 @@ Your passport.
 请出示身份证
 
 404
-00:46:56,512000 --> 00:46:59,522000
+00:46:56,512000 --> 00:46:59,734000
 Listen, how much is their check?
 是多少钱
 
 405
-00:46:59,522000 --> 00:47:01,522000
+00:46:59,522000 --> 00:47:01,569000
 Four hundred twenty.
 是420法郎
 
 406
-00:47:01,522000 --> 00:47:04,522000
+00:47:01,522000 --> 00:47:04,822000
 Will you allow me to pay it?
 让我来吧
 
 407
-00:47:04,522000 --> 00:47:08,532000
+00:47:04,522000 --> 00:47:09,076000
 You think you'll get your money back from that burn?
 他不会还你钱的
 
@@ -2049,7 +2020,7 @@ I have to go now.
 不走了
 
 411
-00:47:23,382000 --> 00:47:27,136000
+00:47:23,382000 --> 00:47:27,552000
 I start work at 9:00.
 9点开始我要做事
 
@@ -2084,32 +2055,31 @@ There's something suspicious about your papers.
 有些不明的地方
 
 418
-00:48:13,592000 --> 00:48:17,144000
+00:48:13,592000 --> 00:48:17,602000
 You've resided in France for three years with no visa,
 没有护照却在法国  不法居留三年
 
 419
-00:48:17,144000 --> 00:48:20,481000
+00:48:17,144000 --> 00:48:20,602000
 no residence permit, no work permit.
 也没有劳动许可证
 
 420
-00:48:20,481000 --> 00:48:23,609000
+00:48:20,481000 --> 00:48:24,592000
 You claim you came by train from Spain,
 你说自己是从西班牙  坐汽车来的
 
 421
 00:48:23,609000 --> 00:48:26,195000
 but you choose to say nothing more.
-你说自己是从西班牙  坐汽车来的
 
 422
-00:48:27,612000 --> 00:48:30,612000
+00:48:27,612000 --> 00:48:31,283000
 There is nothing more to say.
 我没有那么说过
 
 423
-00:48:30,612000 --> 00:48:32,612000
+00:48:30,612000 --> 00:48:32,952000
 Very well.
 是吗
 
@@ -2124,7 +2094,7 @@ We'll decide your fate in the morning.
 明天早上再决定怎么处理
 
 426
-00:48:41,622000 --> 00:48:43,796000
+00:48:41,622000 --> 00:48:45,622000
 May I make a call?
 我想打电话家里只有狗
 
@@ -2134,22 +2104,22 @@ My dog is home alone. - In the morning.
 明天
 
 428
-00:49:32,672000 --> 00:49:36,557000
+00:49:32,672000 --> 00:49:36,662000
 You're to be deported immediately to Albania.
 坐两个小时候的航班  回阿尔巴尼亚
 
 429
-00:49:36,557000 --> 00:49:42,354000
-The flight for Athens leaves in two hours. If you're found within France's borders again
+00:49:36,557000 --> 00:49:42,672000
 若以后还到法国非法居留
+The flight for Athens leaves in two hours. If you're found within France's borders again
 
 430
 00:49:42,354000 --> 00:49:47,682000
-without the necessary papers, it will mean six months in jail.
 就会让你坐6个月的牢
+without the necessary papers, it will mean six months in jail.
 
 431
-00:49:48,692000 --> 00:49:51,692000
+00:49:48,692000 --> 00:49:51,906000
 May I make a call now?
 我现在可以打电话了吗
 
@@ -2174,17 +2144,17 @@ Try again in a couple of hours.
 过一会再打过来吧
 
 436
-00:50:13,594000 --> 00:50:15,513000
+00:50:13,594000 --> 00:50:15,722000
 Morning, Henri.
 刚有过你的电话
 
 437
-00:50:15,513000 --> 00:50:16,722000
+00:50:15,513000 --> 00:50:17,306000
 - Someone just called for you. - Who?
 是谁
 
 438
-00:50:16,722000 --> 00:50:17,722000
+00:50:16,722000 --> 00:50:18,849000
 He didn't say.
 不知道
 
@@ -2196,12 +2166,11 @@ Could you make me a coffee?
 440
 00:50:27,732000 --> 00:50:29,732000
 马歇尔
-给我咖啡
 
 441
 00:50:29,732000 --> 00:50:34,114000
-<i>Listen...</i> I'm being deported.
 我被他们遣送回国了
+<i>Listen...</i> I'm being deported.
 
 442
 00:50:34,732000 --> 00:50:38,732000
@@ -2221,7 +2190,6 @@ They'll put me in jail if I do.
 445
 00:50:48,003000 --> 00:50:49,129000
 Understand?
-若以后再到法国就会蹲监狱
 
 446
 00:50:53,752000 --> 00:50:55,742000
@@ -2229,7 +2197,7 @@ Good-bye, Rodolfo.
 保重
 
 447
-00:50:59,762000 --> 00:51:01,762000
+00:50:59,762000 --> 00:51:01,976000
 - A Suze. - Problems?
 里库尔 什么
 
@@ -2239,24 +2207,24 @@ No. Just thirsty.
 酒
 
 449
-00:51:37,802000 --> 00:51:40,973000
+00:51:37,802000 --> 00:51:41,802000
 What do you think?
 怎么样  我只花了1800法郎
 
 450
 00:51:40,973000 --> 00:51:46,145000
-1,800 francs. Only 19,000 miles. It has brakes...
 可以行驶2万公里  还有刹车也很好
+1,800 francs. Only 19,000 miles. It has brakes...
 
 451
-00:51:47,438000 --> 00:51:51,692000
-and everything. Great.
+00:51:47,438000 --> 00:51:53,812000
 真不错今天晚上有空吗
+and everything. Great.
 
 452
-00:51:51,692000 --> 00:51:56,822000
-Are you free this evening? What's bothering you? You don't seem too enthusiastic.
+00:51:51,692000 --> 00:51:57,531000
 你的脸色很难看怎么了
+Are you free this evening? What's bothering you? You don't seem too enthusiastic.
 
 453
 00:51:56,822000 --> 00:52:00,822000
@@ -2264,19 +2232,18 @@ Rodolfds been deported. No papers.
 洛特勒夫要回国了
 
 454
-00:52:00,822000 --> 00:52:01,822000
+00:52:00,822000 --> 00:52:02,578000
 Shit.
 该死
 
 455
-00:52:01,822000 --> 00:52:04,705000
+00:52:01,822000 --> 00:52:05,822000
 I'll go get Baudelaire.
 我带走狗还有他的画要搬出来
 
 456
-00:52:04,705000 --> 00:52:07,832000
+00:52:04,705000 --> 00:52:08,042000
 Let's meet there tonight and haul his paintings to your place.
-我带走狗还有他的画要搬出来
 
 457
 00:52:07,832000 --> 00:52:09,822000
@@ -2289,7 +2256,7 @@ Evening, ma'am.
 晚上好
 
 459
-00:52:52,872000 --> 00:52:54,872000
+00:52:52,872000 --> 00:52:56,799000
 - Are you looking for Rodolfo? - Yes.
 你找谁
 
@@ -2299,17 +2266,17 @@ We were to meet here. Where is he?
 是的我们约好见面  他在哪里
 
 461
-00:53:00,094000 --> 00:53:02,882000
+00:53:00,094000 --> 00:53:03,263000
 He's been deported. He was in the country illegally.
 因为非法居留  所以被遣送回国了
 
 462
-00:53:02,882000 --> 00:53:03,882000
+00:53:02,882000 --> 00:53:04,682000
 When?
 什么时候
 
 463
-00:53:03,882000 --> 00:53:05,892000
+00:53:03,882000 --> 00:53:06,141000
 This afternoon.
 今天下午
 
@@ -2325,8 +2292,8 @@ I don't know.
 
 466
 00:53:11,814000 --> 00:53:15,892000
-I have to go. Shut the door when you leave.
 好了走吧  出来的时候把窗户关好
+I have to go. Shut the door when you leave.
 
 467
 00:53:45,802000 --> 00:53:48,976000
@@ -2344,17 +2311,17 @@ What's it look like?
 老样子
 
 470
-00:54:50,872000 --> 00:54:54,872000
-How many today? We have to go to press Friday.
+00:54:50,872000 --> 00:54:55,334000
 广告有了吗  周五之前要印刷好
+How many today? We have to go to press Friday.
 
 471
-00:54:54,872000 --> 00:54:58,879000
+00:54:54,872000 --> 00:54:58,882000
 Just one, but a full page. For Printemps.
 找到了一件  是"佛朗坦"的一面广告
 
 472
-00:54:58,879000 --> 00:55:01,882000
+00:54:58,879000 --> 00:55:01,965000
 I know. They called and cancelled it.
 那个广告就取消吧
 
@@ -2374,14 +2341,14 @@ What are you up to with that ladder?
 那个梯子是什么
 
 476
-00:55:14,892000 --> 00:55:17,981000
+00:55:14,892000 --> 00:55:18,892000
 It's the link between me and my beloved.
 这是连接我和我爱人的桥梁
 
 477
-00:55:17,981000 --> 00:55:22,902000
-Have you read Shakespeare? Of course. He was a great philosopher.
+00:55:17,981000 --> 00:55:23,195000
 知道了你这个大哲学家
+Have you read Shakespeare? Of course. He was a great philosopher.
 
 478
 00:55:22,902000 --> 00:55:26,912000
@@ -2389,17 +2356,17 @@ Do you remember <i>Romeo and Juliet?</i>
 "罗米欧和朱丽叶"怎么样
 
 479
-00:55:26,912000 --> 00:55:28,912000
+00:55:26,912000 --> 00:55:29,201000
 Do I remember it?
 歇尔夫...
 
 480
-00:55:28,912000 --> 00:55:32,120000
+00:55:28,912000 --> 00:55:32,902000
 “It was the nightingale and not the lark
 "弄醒你的不是画眉鸟"
 
 481
-00:55:32,120000 --> 00:55:35,912000
+00:55:32,120000 --> 00:55:36,375000
 that pierced the fearful hollow of thine ear.”
 "是耐辛盖尔"
 
@@ -2409,7 +2376,7 @@ Don't you understand?
 就那样
 
 483
-00:55:38,922000 --> 00:55:40,922000
+00:55:38,922000 --> 00:55:41,672000
 I've met a girl from a good family,
 我认识了一个大家闺秀
 
@@ -2419,17 +2386,16 @@ but for certain reasons her father can't stand me
 她的父亲憎恨我  甚至想杀了我
 
 485
-00:55:45,259000 --> 00:55:49,638000
-and has threatened to kill me. The girl's name is Juliette,
+00:55:45,259000 --> 00:55:50,922000
 她叫朱丽叶家里还有舞台
+and has threatened to kill me. The girl's name is Juliette,
 
 486
 00:55:49,638000 --> 00:55:52,766000
 and her room just happens to have a balcony.
-她叫朱丽叶家里还有舞台
 
 487
-00:55:52,891000 --> 00:55:55,602000
+00:55:52,891000 --> 00:55:55,942000
 I came to borrow this bird
 改天晚上借我这只小鸟
 
@@ -2439,14 +2405,13 @@ to wake me every morning before the old man gets up.
 是为了第二天早上  比她父亲早起
 
 489
-00:55:59,942000 --> 00:56:04,278000
+00:55:59,942000 --> 00:56:05,932000
 I'd be obliged if from now on you'd call me
 今天开始 叫我做罗米欧
 
 490
 00:56:04,278000 --> 00:56:06,405000
 Romeo Montague.
-今天开始 叫我做罗米欧
 
 491
 00:56:06,952000 --> 00:56:10,942000
@@ -2484,12 +2449,12 @@ Very well.
 知道了
 
 498
-00:56:37,982000 --> 00:56:39,982000
+00:56:37,982000 --> 00:56:40,647000
 Forget about your Juliette. We have to go.
 忘了你的恋人吧走
 
 499
-00:56:39,982000 --> 00:56:40,982000
+00:56:39,982000 --> 00:56:42,649000
 - Where? - The border.
 去哪里
 
@@ -2499,7 +2464,7 @@ I'll explain on the way.
 是边境后面再跟你解释
 
 501
-00:56:46,992000 --> 00:56:49,992000
+00:56:46,992000 --> 00:56:50,365000
 Let me have a few hundred. - There is no money.
 先借我 没有
 
@@ -2509,12 +2474,12 @@ Where did it all go?
 我看你有
 
 503
-00:56:51,992000 --> 00:56:54,870000
+00:56:51,992000 --> 00:56:54,992000
 I paid the printer so they'd give me the magazines.
 印刷的时候用完了
 
 504
-00:56:54,870000 --> 00:56:56,997000
+00:56:54,870000 --> 00:56:57,002000
 You could have left them there.
 那也会有一点
 
@@ -2531,7 +2496,6 @@ Hold still.
 507
 00:57:19,811000 --> 00:57:21,396000
 Now let's go.
-别动
 
 508
 00:58:12,072000 --> 00:58:14,062000
@@ -2544,17 +2508,16 @@ Shall we go? We can make Paris by morning.
 我想马上跑到巴黎
 
 510
-01:00:51,232000 --> 01:00:54,442000
+01:00:51,232000 --> 01:00:56,232000
 - When is Mimi in? - Mimi isn't here anymore.
 眯米在吗 她已经不干了  但每天晚上都会过来玩
 
 511
 01:00:54,442000 --> 01:00:57,070000
 But they stop in almost every evening.
-眯米在吗 她已经不干了  但每天晚上都会过来玩
 
 512
-01:00:57,237000 --> 01:00:58,242000
+01:00:57,237000 --> 01:00:58,488000
 Who's “they”?
 和什么人一起
 
@@ -2565,21 +2528,21 @@ Mimi and Francis, her boyfriend. Why do you ask?
 
 514
 01:01:02,909000 --> 01:01:07,664000
-I'm an old friend. Thank you.
 她是我的老朋友
+I'm an old friend. Thank you.
 
 515
-01:01:52,834000 --> 01:01:54,302000
+01:01:52,834000 --> 01:01:54,419000
 Good evening.
 晚上好
 
 516
-01:01:54,302000 --> 01:01:55,302000
+01:01:54,302000 --> 01:01:56,254000
 How are you? - Fine.
 还好吗
 
 517
-01:01:55,302000 --> 01:01:58,302000
+01:01:55,302000 --> 01:01:58,381000
 Someone was asking for you. - Who?
 是啊你的朋友来了 谁
 
@@ -2589,14 +2552,14 @@ An old friend. He's sitting over there.
 是你的老朋友在那边
 
 519
-01:03:25,392000 --> 01:03:30,140000
+01:03:25,392000 --> 01:03:30,382000
 I believe The Crossing of the Red Sea
 眯米 "红海横断"  这幅画已经完成了
 
 520
-01:03:30,140000 --> 01:03:33,402000
-is finished. I feel empty.
+01:03:30,140000 --> 01:03:34,019000
 但我不会卖
+is finished. I feel empty.
 
 521
 01:03:33,402000 --> 01:03:38,273000
@@ -2609,29 +2572,27 @@ Perhaps you could come down on the price.
 便宜点卖吧
 
 523
-01:03:42,412000 --> 01:03:45,572000
+01:03:42,412000 --> 01:03:46,402000
 I won't sell it for less
 200法郎以下我不会卖的
 
 524
-01:03:45,572000 --> 01:03:49,909000
-than 200 francs. I've already put
+01:03:45,572000 --> 01:03:51,402000
 为了画这幅画  我花了1万法郎以上
+than 200 francs. I've already put
 
 525
-01:03:49,909000 --> 01:03:52,422000
+01:03:49,909000 --> 01:03:52,787000
 over 10,000 francs' worth of paint into it.
-为了画这幅画  我花了1万法郎以上
 
 526
-01:03:52,422000 --> 01:03:55,540000
+01:03:52,422000 --> 01:03:56,412000
 What if the landlord calls the police?
 我担心你会被警察抓走
 
 527
 01:03:55,540000 --> 01:03:58,335000
 You still don't have a residence permit.
-我担心你会被警察抓走
 
 528
 01:03:59,711000 --> 01:04:02,422000
@@ -2646,7 +2607,6 @@ What a surprise.
 530
 01:04:18,442000 --> 01:04:20,432000
 眯米
-真令人吃惊
 
 531
 01:04:21,608000 --> 01:04:26,442000
@@ -2654,32 +2614,32 @@ Would you offer our guest a glass of water?
 给客人倒一杯水吧
 
 532
-01:04:28,452000 --> 01:04:30,462000
+01:04:28,452000 --> 01:04:30,950000
 To what do I owe this honor?
 有事吗
 
 533
-01:04:30,462000 --> 01:04:33,203000
+01:04:30,462000 --> 01:04:34,452000
 I was so inspired by your portrait
 我喜欢上油画  现在变成了收藏家
 
 534
 01:04:33,203000 --> 01:04:39,452000
-that I've decided to become a collector. I'm now looking for a relatively large painting,
 我想现在就要一幅大画
+that I've decided to become a collector. I'm now looking for a relatively large painting,
 
 535
-01:04:39,793000 --> 01:04:43,630000
-and I thought of you. You're in luck.
+01:04:39,793000 --> 01:04:44,472000
 这幅画刚画好
+and I thought of you. You're in luck.
 
 536
-01:04:43,630000 --> 01:04:47,472000
+01:04:43,630000 --> 01:04:47,801000
 I just finished this one and intended to send it off
 和其它的作品一起
 
 537
-01:04:47,472000 --> 01:04:49,472000
+01:04:47,472000 --> 01:04:50,678000
 in the morning with some other works
 明天早上要送走
 
@@ -2689,7 +2649,7 @@ to an exhibition in New York.
 在纽约开展览会
 
 539
-01:04:53,482000 --> 01:04:56,482000
+01:04:53,482000 --> 01:04:56,601000
 But if you'd care to make an offer...
 但也可以出售
 
@@ -2709,22 +2669,22 @@ I'll give you 1,000 francs.
 1000法郎怎么样
 
 543
-01:05:06,492000 --> 01:05:09,197000
+01:05:06,492000 --> 01:05:09,492000
 - You're joking. - 1,200.
 太便宜了 1200法郎
 
 544
-01:05:09,197000 --> 01:05:10,490000
+01:05:09,197000 --> 01:05:10,502000
 2,000.
 2000法郎
 
 545
-01:05:10,490000 --> 01:05:11,502000
+01:05:10,490000 --> 01:05:11,991000
 1,400.
 1400法郎
 
 546
-01:05:11,502000 --> 01:05:13,502000
+01:05:11,502000 --> 01:05:13,910000
 1,700.
 1700法郎
 
@@ -2761,17 +2721,15 @@ I'll wait outside.
 553
 01:06:00,498000 --> 01:06:03,042000
 I have to talk to Marcel.
-我到外面和马歇尔见面
 
 554
-01:06:58,602000 --> 01:07:01,351000
+01:06:58,602000 --> 01:07:02,602000
 Poor girls.
 强迫女人过贫穷的生活  太残酷了
 
 555
 01:07:01,351000 --> 01:07:04,229000
 They were never meant to live like this.
-强迫女人过贫穷的生活  太残酷了
 
 556
 01:07:04,612000 --> 01:07:08,622000
@@ -2784,14 +2742,13 @@ we bear up joyfully under every misfortune.
 就算遭受挫折也不会气馁
 
 558
-01:07:11,622000 --> 01:07:13,821000
+01:07:11,622000 --> 01:07:15,612000
 We don't sink into depression
 每天穿着睡衣也可以生活
 
 559
-01:07:13,821000 --> 01:07:16,622000
+01:07:13,821000 --> 01:07:17,283000
 if our outfit isn't always neat and tidy.
-每天穿着睡衣也可以生活
 
 560
 01:07:16,622000 --> 01:07:20,632000
@@ -2799,29 +2756,27 @@ But for women it's different.
 但女人这样可不行
 
 561
-01:07:20,632000 --> 01:07:24,632000
+01:07:20,632000 --> 01:07:25,333000
 The simplest frock brings them joy, and one can't fault them for that.
 为一件衣服欢欣鼓舞的就是女人
 
 562
-01:07:24,632000 --> 01:07:27,293000
+01:07:24,632000 --> 01:07:28,622000
 On the other hand,
 最近美术或者  文化市场开始有了活力
 
 563
 01:07:27,293000 --> 01:07:31,548000
 the market for art and literature has been bustling recently.
-最近美术或者  文化市场开始有了活力
 
 564
-01:07:32,642000 --> 01:07:35,134000
+01:07:32,642000 --> 01:07:36,632000
 We'll soon be earning
 我们也在东站附近租一个地方
 
 565
-01:07:35,134000 --> 01:07:38,652000
+01:07:35,134000 --> 01:07:38,846000
 nearly as much as porters at the Gare de L'Est.
-我们也在东站附近租一个地方
 
 566
 01:07:38,652000 --> 01:07:40,652000
@@ -2829,17 +2784,17 @@ It's true.
 没错
 
 567
-01:07:40,652000 --> 01:07:44,561000
+01:07:40,652000 --> 01:07:44,652000
 Works of art are selling like pancakes.
 卖艺术品是好主意
 
 568
-01:07:44,561000 --> 01:07:45,652000
+01:07:44,561000 --> 01:07:46,145000
 Then it's agreed.
 就因为如此
 
 569
-01:07:45,652000 --> 01:07:49,662000
+01:07:45,652000 --> 01:07:50,316000
 Tomorrow we take the girls shopping to indulge their feminine whims.
 明天带女朋友去购物
 
@@ -2849,29 +2804,28 @@ Sunday we'll go on a picnic in the countryside.
 星期天到乡下玩
 
 571
-01:07:54,662000 --> 01:07:55,662000
+01:07:54,662000 --> 01:07:56,364000
 What about me?
 我呢
 
 572
-01:07:55,662000 --> 01:07:58,672000
+01:07:55,662000 --> 01:07:59,158000
 You have two days to find yourself a companion.
 到周日之前弄一个恋人出来
 
 573
-01:07:58,672000 --> 01:08:02,672000
+01:07:58,672000 --> 01:08:03,204000
 It's not our fault if your appearance sparks no interest in the opposite sex.
 你连喜欢的女人都没找到
 
 574
-01:08:02,672000 --> 01:08:06,374000
+01:08:02,672000 --> 01:08:06,662000
 But if you have no luck, you can still come along...
 没找到也要来你当司机
 
 575
 01:08:06,374000 --> 01:08:08,042000
 as our driver.
-没找到也要来你当司机
 
 576
 01:08:09,682000 --> 01:08:14,048000
@@ -2880,8 +2834,8 @@ Monsieur, there's a call for you in the kitchen.
 
 577
 01:08:15,216000 --> 01:08:20,346000
-Madame... your eyes are like two moons.
 夫人  你的眼镜就像月亮一样美丽
+Madame... your eyes are like two moons.
 
 578
 01:08:33,693000 --> 01:08:37,692000
@@ -2891,7 +2845,6 @@ Let's hope it doesn't come to more than 600 francs.
 579
 01:09:21,752000 --> 01:09:23,742000
 波特里
-都是廉价商品也好
 
 580
 01:11:06,679000 --> 01:11:08,852000
@@ -2909,54 +2862,51 @@ Idiots!
 像傻瓜一样
 
 583
-01:11:15,563000 --> 01:11:17,872000
+01:11:15,563000 --> 01:11:18,107000
 They tried to discourage me.
 没有长眼睛
 
 584
-01:11:17,872000 --> 01:11:21,360000
+01:11:17,872000 --> 01:11:21,862000
 They said I should break my brushes in two
 但我不会折断笔  然后再自杀
 
 585
 01:11:21,360000 --> 01:11:23,696000
 and jump out the window.
-但我不会折断笔  然后再自杀
 
 586
-01:11:26,882000 --> 01:11:30,077000
+01:11:26,882000 --> 01:11:30,872000
 Let's go borrow some money from Marcel
 跟马歇尔借点钱吃点什么吧
 
 587
 01:11:30,077000 --> 01:11:32,288000
 and go out to eat.
-跟马歇尔借点钱吃点什么吧
 
 588
-01:11:48,554000 --> 01:11:50,431000
+01:11:48,554000 --> 01:11:50,892000
 I gave you
 我给你们钱
 
 589
 01:11:50,431000 --> 01:11:53,392000
 a cash advance.
-我给你们钱
 
 590
-01:11:54,902000 --> 01:11:57,772000
+01:11:54,902000 --> 01:11:58,912000
 I want it back
 两天之内一定要还给我
 
 591
 01:11:57,772000 --> 01:12:01,400000
-in two days. Not three or five.
 只有两天
+in two days. Not three or five.
 
 592
 01:12:01,567000 --> 01:12:06,072000
-Two days. Good luck...
 已经结束了
+Two days. Good luck...
 
 593
 01:12:06,922000 --> 01:12:08,912000
@@ -2966,40 +2916,38 @@ and good-bye.
 594
 01:12:15,922000 --> 01:12:17,922000
 一群白痴
-再见
 
 595
-01:12:26,592000 --> 01:12:27,942000
+01:12:26,592000 --> 01:12:28,594000
 What was that all about?
 为什么关门了
 
 596
-01:12:27,942000 --> 01:12:31,264000
+01:12:27,942000 --> 01:12:31,932000
 He's mad that I serialized my play.
 我的连载不合他们的脾胃
 
 597
-01:12:31,264000 --> 01:12:33,942000
+01:12:31,264000 --> 01:12:35,601000
 Says it didn't suit the magazine's style and that readers complained.
-我的连载不合他们的脾胃
 
 598
-01:12:33,942000 --> 01:12:36,952000
+01:12:33,942000 --> 01:12:37,436000
 What readers?
 他们完全不考虑读者的心情
 
 599
-01:12:36,952000 --> 01:12:40,940000
+01:12:36,952000 --> 01:12:40,952000
 Besides, as editor in chief, I set the style.
 决定编辑方针的是我
 
 600
-01:12:40,940000 --> 01:12:42,952000
+01:12:40,940000 --> 01:12:43,609000
 He was just the publisher. Capitalist!
 那个资本主义家伙
 
 601
-01:12:42,952000 --> 01:12:45,952000
+01:12:42,952000 --> 01:12:45,987000
 - I'm hungry. - Me too.
 肚子饿了 我也是
 
@@ -3009,19 +2957,18 @@ Come eat at my place.
 在家里吃吧
 
 603
-01:12:48,865000 --> 01:12:50,962000
+01:12:48,865000 --> 01:12:51,158000
 I happen to have a little money.
 我有东西吃
 
 604
 01:12:50,962000 --> 01:12:56,080000
-While we're at it, I can play my latest composition for you.
 顺便可以给你们听我的新曲
+While we're at it, I can play my latest composition for you.
 
 605
 01:15:01,092000 --> 01:15:03,082000
 你被逮捕了
-顺便可以给你们听我的新曲
 
 606
 01:15:30,109000 --> 01:15:34,122000
@@ -3029,7 +2976,7 @@ I'm going to leave Marcel.
 我要离开马歇尔
 
 607
-01:15:34,122000 --> 01:15:35,132000
+01:15:34,122000 --> 01:15:35,781000
 When?
 什么时候
 
@@ -3054,9 +3001,9 @@ I didn't dare tell him.
 不知道
 
 612
-01:15:51,922000 --> 01:15:56,152000
-I'm going back to Strasbourg. There's this farmer there.
+01:15:51,922000 --> 01:15:56,343000
 回到故乡和富翁结婚
+I'm going back to Strasbourg. There's this farmer there.
 
 613
 01:15:56,152000 --> 01:16:00,142000
@@ -3066,10 +3013,9 @@ He's not great-looking, but he's sweet...
 614
 01:16:00,222000 --> 01:16:01,932000
 and dependable.
-就算长得不帅  只要慈祥又真心就可以了
 
 615
-01:16:03,152000 --> 01:16:07,063000
+01:16:03,152000 --> 01:16:07,162000
 Why?
 那马歇尔怎么办
 
@@ -3079,12 +3025,12 @@ Marcel doesn't need me.
 不需要我
 
 617
-01:16:12,162000 --> 01:16:15,863000
+01:16:12,162000 --> 01:16:16,172000
 All he loves is his books.
 对他来说书就是全部
 
 618
-01:16:15,863000 --> 01:16:19,172000
+01:16:15,863000 --> 01:16:19,492000
 Yesterday I pawned my ring for rent money.
 我为了房租连戒指都当进去了
 
@@ -3094,7 +3040,7 @@ I left the money on the table. When I came back, he'd taken it...
 他就用那个钱全都买书看
 
 620
-01:16:24,182000 --> 01:16:27,182000
+01:16:24,182000 --> 01:16:27,583000
 and spent it all on first-edition Balzacs.
 而且买的是巴尔扎克的书
 
@@ -3119,29 +3065,29 @@ That's how men are.
 男人都是薄情的
 
 625
-01:16:46,202000 --> 01:16:48,202000
+01:16:46,202000 --> 01:16:49,563000
 Will you see me to the station? - Of course.
 送我去车站吧
 
 626
-01:16:48,202000 --> 01:16:51,202000
+01:16:48,202000 --> 01:16:51,524000
 I'll miss you.
 当然我会很寂寞的
 
 627
-01:16:51,202000 --> 01:16:53,202000
+01:16:51,202000 --> 01:16:53,734000
 You must come visit!
 来见我
 
 628
-01:16:53,202000 --> 01:16:55,861000
+01:16:53,202000 --> 01:16:57,212000
 I'll send you the fare.
 我会给你车费如果是富翁  那肯定很有钱
 
 629
 01:16:55,861000 --> 01:16:59,782000
-The man's rich. I promise.
 我一定去
+The man's rich. I promise.
 
 630
 01:17:00,212000 --> 01:17:02,660000
@@ -3161,20 +3107,18 @@ I don't know.
 633
 01:17:30,242000 --> 01:17:33,252000
 开往斯特拉斯夫的列车
-不知道
 
 634
 01:17:33,252000 --> 01:17:37,242000
 马上就要发车了  乘客请上车
-不知道
 
 635
-01:18:13,292000 --> 01:18:15,292000
+01:18:13,292000 --> 01:18:15,858000
 How's it going, Mimi?
 你还好吗
 
 636
-01:18:15,292000 --> 01:18:17,292000
+01:18:15,292000 --> 01:18:17,568000
 Fine.
 是的
 
@@ -3199,29 +3143,29 @@ I found work.
 我要工作
 
 641
-01:18:50,322000 --> 01:18:52,332000
+01:18:50,322000 --> 01:18:52,728000
 You needn't have.
 没必要工作
 
 642
-01:18:52,332000 --> 01:18:56,273000
+01:18:52,332000 --> 01:18:56,332000
 I can't go on living like this, never having any money.
 我无法忍受贫穷的生活
 
 643
-01:18:56,273000 --> 01:18:58,332000
+01:18:56,273000 --> 01:18:58,984000
 I can't breathe. It's like I'm suffocating.
 我快无法呼吸了
 
 644
-01:18:58,332000 --> 01:19:01,332000
+01:18:58,332000 --> 01:19:01,445000
 I'll open the window.
 要我开窗户吗
 
 645
 01:19:01,332000 --> 01:19:06,033000
-That won't help. Besides, it's already cold in here.
 傻瓜是为了家计才这样
+That won't help. Besides, it's already cold in here.
 
 646
 01:19:06,342000 --> 01:19:10,342000
@@ -3239,14 +3183,13 @@ Some old poems of mine.
 这是我的诗
 
 649
-01:19:27,304000 --> 01:19:30,933000
+01:19:27,304000 --> 01:19:31,352000
 I thought I'd publish a collection...
 我一直想出自己的诗集
 
 650
 01:19:30,933000 --> 01:19:32,559000
 someday.
-我一直想出自己的诗集
 
 651
 01:19:54,392000 --> 01:19:59,211000
@@ -3264,7 +3207,7 @@ Don't be too long.
 早点回来
 
 654
-01:21:48,502000 --> 01:21:50,512000
+01:21:48,502000 --> 01:21:50,656000
 Hello, Rodolfo.
 洛特勒夫
 
@@ -3275,8 +3218,8 @@ Hello, Mimi.
 
 656
 01:21:53,512000 --> 01:21:58,122000
-I love you, you know, but life is hard.
 虽然我爱你  但无法忍受贫穷的生活
+I love you, you know, but life is hard.
 
 657
 01:21:59,512000 --> 01:22:02,793000
@@ -3286,117 +3229,95 @@ Yes. I understand.
 658
 01:22:28,861000 --> 01:22:30,863000
 <i>I drink.</i>
-我很清楚
 
 659
 01:22:31,196000 --> 01:22:33,615000
 <i>Glass after glass</i>
-我很清楚
 
 660
 01:22:34,867000 --> 01:22:39,079000
 <i>To forget all about my wife's friends</i>
-我很清楚
 
 661
 01:22:41,748000 --> 01:22:44,418000
 <i>I drink.</i>
-我很清楚
 
 662
 01:22:44,543000 --> 01:22:46,879000
 <i>Glass after glass</i>
-我很清楚
 
 663
 01:22:48,505000 --> 01:22:53,844000
 <i>To forget all my troubles</i>
-我很清楚
 
 664
 01:22:55,345000 --> 01:22:57,806000
 <i>I drink.</i>
-我很清楚
 
 665
 01:22:58,182000 --> 01:23:01,018000
 <i>Any old swill</i>
-我很清楚
 
 666
 01:23:02,060000 --> 01:23:07,357000
 <i>As long as it's strong</i>
-我很清楚
 
 667
 01:23:08,692000 --> 01:23:10,986000
 <i>I drink.</i>
-我很清楚
 
 668
 01:23:11,445000 --> 01:23:13,822000
 <i>The cheapest stuff</i>
-我很清楚
 
 669
 01:23:15,324000 --> 01:23:17,576000
 <i>It's rough</i>
-我很清楚
 
 670
 01:23:17,743000 --> 01:23:20,454000
 <i>But it passes the time</i>
-我很清楚
 
 671
 01:23:22,372000 --> 01:23:25,417000
 <i>Is life really such a lark?</i>
-我很清楚
 
 672
 01:23:25,667000 --> 01:23:28,921000
 <i>Is it really so exciting?</i>
-我很清楚
 
 673
 01:23:29,046000 --> 01:23:32,716000
 <i>I ask</i>
-我很清楚
 
 674
 01:23:32,841000 --> 01:23:36,602000
-<i>Those two questions</i> AUTUMN
 秋天
+<i>Those two questions</i> AUTUMN
 
 675
 01:23:36,720000 --> 01:23:38,931000
 <i>Is it worth living?</i>
-秋天
 
 676
 01:23:39,306000 --> 01:23:42,684000
 <i>Or loving, only to be cheated on?</i>
-秋天
 
 677
 01:23:42,809000 --> 01:23:45,938000
 <i>I ask those two questions</i>
-秋天
 
 678
 01:23:47,606000 --> 01:23:51,360000
 <i>But no one ever answers</i>
-秋天
 
 679
 01:23:51,485000 --> 01:23:54,238000
 <i>And so I drink</i>
-秋天
 
 680
 01:23:54,363000 --> 01:23:56,615000
 <i>Glass after glass</i>
-秋天
 
 681
 01:24:10,652000 --> 01:24:12,652000
@@ -3414,7 +3335,7 @@ It's very good.
 真不错
 
 684
-01:24:37,672000 --> 01:24:41,785000
+01:24:37,672000 --> 01:24:42,102000
 The voice of the people is the voice of God.
 人声就是天籁
 
@@ -3424,14 +3345,13 @@ EVEN MOSES USED BLANCHERON SUGAR
 佛朗修罗砂糖公司
 
 686
-01:24:51,402000 --> 01:24:53,402000
+01:24:51,402000 --> 01:24:54,881000
 That there is known as turkey with truffles.
 你们看
 
 687
-01:24:53,402000 --> 01:24:56,550000
+01:24:53,402000 --> 01:24:57,402000
 火鸟料理已经结束了
-你们看
 
 688
 01:24:56,550000 --> 01:24:59,412000
@@ -3439,29 +3359,27 @@ Look at the color of that leg of lamb!
 还有烤得热烘烘的羊羔
 
 689
-01:24:59,412000 --> 01:25:02,264000
+01:24:59,412000 --> 01:25:03,402000
 Lamb is the favorite food of the gods
 是桑德拉夫人非常喜欢的东西
 
 690
 01:25:02,264000 --> 01:25:05,183000
 and also of my godmother, Madame Chandlier.
-是桑德拉夫人非常喜欢的东西
 
 691
 01:25:06,412000 --> 01:25:10,439000
-And what about those trout? They're superb swimmers.
 还有这个鳟鱼  这家伙可是游泳名将
+And what about those trout? They're superb swimmers.
 
 692
-01:25:10,832000 --> 01:25:13,525000
+01:25:10,832000 --> 01:25:14,832000
 They climb rapids as quickly
 如果有人请我们去吃晚餐  我们会比它更快
 
 693
-01:25:13,525000 --> 01:25:16,842000
+01:25:13,525000 --> 01:25:16,862000
 as we'd accept an invitation to dinner this evening.
-如果有人请我们去吃晚餐  我们会比它更快
 
 694
 01:25:16,842000 --> 01:25:19,197000
@@ -3474,22 +3392,21 @@ I almost got to taste one once.
 我吃过一次
 
 696
-01:25:23,852000 --> 01:25:26,204000
+01:25:23,852000 --> 01:25:27,842000
 Speaking of fruit,
 果实也可以但也不想失去肉
 
 697
-01:25:26,204000 --> 01:25:28,852000
+01:25:26,204000 --> 01:25:29,207000
 I wouldn't say no to that pheasant there.
-果实也可以但也不想失去肉
 
 698
-01:25:28,852000 --> 01:25:32,753000
+01:25:28,852000 --> 01:25:32,862000
 Why this profusion of delicacies?
 为什么会走这么快
 
 699
-01:25:32,753000 --> 01:25:34,862000
+01:25:32,753000 --> 01:25:36,048000
 You don't know? It's All Saints' Day,
 不知道吗
 
@@ -3504,7 +3421,7 @@ Would you care to spend the evening with me?
 我们也庆祝吧
 
 702
-01:25:43,872000 --> 01:25:44,872000
+01:25:43,872000 --> 01:25:45,390000
 No money.
 没有钱
 
@@ -3524,7 +3441,7 @@ Same here.
 我也是
 
 706
-01:26:38,922000 --> 01:26:40,932000
+01:26:38,922000 --> 01:26:41,321000
 I can see
 我可以看到
 
@@ -3534,7 +3451,7 @@ that a phantom from the past sits at this table.
 过去的亡灵正坐在台上
 
 708
-01:26:45,932000 --> 01:26:50,932000
+01:26:45,932000 --> 01:26:51,373000
 But if you intend to waste away to nothing,
 如果有勇气饿死
 
@@ -3544,7 +3461,7 @@ you could do so just as well on a full stomach.
 也可以吃饱撑死
 
 710
-01:27:09,558000 --> 01:27:12,894000
+01:27:09,558000 --> 01:27:12,962000
 Am I disturbing you?
 妨碍你们了吗
 
@@ -3559,7 +3476,7 @@ I'm so cold.
 真冷啊
 
 713
-01:27:27,826000 --> 01:27:29,972000
+01:27:27,826000 --> 01:27:30,454000
 I happened to be passing by
 走在路上
 
@@ -3569,7 +3486,7 @@ and saw the light in the window.
 可以看到窗户里的灯光
 
 715
-01:27:33,982000 --> 01:27:37,753000
+01:27:33,982000 --> 01:27:37,982000
 I lost my apartment a week ago,
 上周我被赶出来
 
@@ -3579,14 +3496,13 @@ and I've been wandering the streets ever since.
 在街上流浪了
 
 717
-01:27:40,982000 --> 01:27:44,009000
+01:27:40,982000 --> 01:27:44,982000
 I'm posing for artists these days,
 也当过模特  但也赚不到多少钱
 
 718
 01:27:44,009000 --> 01:27:46,011000
 but it doesn't pay much.
-也当过模特  但也赚不到多少钱
 
 719
 01:27:46,992000 --> 01:27:50,982000
@@ -3609,22 +3525,21 @@ Then I'll move back into my apartment.
 去哪里 去买雪茄
 
 723
-01:28:11,022000 --> 01:28:12,022000
+01:28:11,022000 --> 01:28:12,454000
 In Havana.
 一直到巴西
 
 724
-01:28:12,022000 --> 01:28:14,706000
+01:28:12,022000 --> 01:28:16,012000
 We'll be back tomorrow
 我们明天早上会回来
 
 725
 01:28:14,706000 --> 01:28:17,292000
 sure as arrows loosed by a steady hand.
-我们明天早上会回来
 
 726
-01:28:30,889000 --> 01:28:32,808000
+01:28:30,889000 --> 01:28:33,042000
 Where have you been?
 你一直呆在哪里了
 
@@ -3634,14 +3549,13 @@ Don't ask any questions.
 什么也别问了
 
 728
-01:28:36,042000 --> 01:28:39,648000
+01:28:36,042000 --> 01:28:40,032000
 Just let me sit here by your side.
 我想留在你身边  这里是温暖的
 
 729
 01:28:39,648000 --> 01:28:41,733000
 It's so warm here.
-我想留在你身边  这里是温暖的
 
 730
 01:28:43,860000 --> 01:28:47,052000
@@ -3670,8 +3584,8 @@ I'll clear the table.
 
 735
 01:29:03,072000 --> 01:29:07,759000
-The warmth has made me dizzy. I can hardly stand up.
 因为热所以头都晕了  站不起来
+The warmth has made me dizzy. I can hardly stand up.
 
 736
 01:29:14,082000 --> 01:29:16,351000
@@ -3690,16 +3604,16 @@ Schaunard and I will go get a doctor.
 
 739
 01:30:21,152000 --> 01:30:25,211000
-You stay here and keep Mimi company.
 帮我照顾眯米
+You stay here and keep Mimi company.
 
 740
-01:30:44,172000 --> 01:30:47,943000
+01:30:44,172000 --> 01:30:48,172000
 I was awake the whole time.
 他一直都没睡觉
 
 741
-01:30:47,943000 --> 01:30:50,182000
+01:30:47,943000 --> 01:30:50,195000
 Rodolfo still loves me.
 他还爱着我
 
@@ -3714,7 +3628,7 @@ I never stopped loving him.
 我也爱他
 
 744
-01:30:54,783000 --> 01:30:56,182000
+01:30:54,783000 --> 01:30:56,493000
 Then all is well.
 太好了
 
@@ -3744,27 +3658,26 @@ You believe me now?
 知道了吧
 
 750
-01:31:19,212000 --> 01:31:22,060000
+01:31:19,212000 --> 01:31:23,202000
 If I'd stayed here
 如果和洛特勒夫安宁的生活
 
 751
 01:31:22,060000 --> 01:31:23,895000
 with Rodolfo,
-如果和洛特勒夫安宁的生活
 
 752
-01:31:24,020000 --> 01:31:28,066000
+01:31:24,020000 --> 01:31:28,212000
 everything would be fine now.
 这种事情就不会...
 
 753
-01:31:28,066000 --> 01:31:30,902000
+01:31:28,066000 --> 01:31:31,222000
 Poor Rodolfo.
 真是可怜的人
 
 754
-01:31:30,902000 --> 01:31:34,990000
+01:31:30,902000 --> 01:31:35,222000
 He has to take care of me once again.
 我还对他迷恋
 
@@ -3780,8 +3693,8 @@ The last dress he buys me will be white.
 
 757
 01:31:43,232000 --> 01:31:49,232000
-Don't talk like that. You'll get better. Rodolfo has gone for a doctor.
 不你马上就能好奇来  医生会治好你
+Don't talk like that. You'll get better. Rodolfo has gone for a doctor.
 
 758
 01:31:50,242000 --> 01:31:54,242000
@@ -3789,7 +3702,7 @@ It took me an hour to climb the stairs yesterday.
 上楼梯也要用尽全力
 
 759
-01:31:54,242000 --> 01:31:57,242000
+01:31:54,242000 --> 01:31:57,595000
 But if I'd found another woman here with him,
 如果这里有别的女人
 
@@ -3804,7 +3717,7 @@ Rodolfo knows everything.
 他会知道
 
 762
-01:32:43,099000 --> 01:32:46,292000
+01:32:43,099000 --> 01:32:46,352000
 She must go to the hospital - my hospital.
 如果现在再马上住院不行
 
@@ -3835,8 +3748,8 @@ She'll live until spring at the latest.
 
 768
 01:33:48,362000 --> 01:33:52,877000
-I can keep her in a private room, but I must warn you:
 会在特别护理室悉心照顾
+I can keep her in a private room, but I must warn you:
 
 769
 01:33:53,362000 --> 01:33:57,382000
@@ -3879,17 +3792,16 @@ She's dead.
 死了
 
 777
-01:39:21,692000 --> 01:39:23,702000
+01:39:21,692000 --> 01:39:23,875000
 Shall we come with you?
 我们一起走
 
 778
-01:39:23,702000 --> 01:39:26,335000
+01:39:23,702000 --> 01:39:26,792000
 That's all right.
 不我想一个人
 
 779
-01:39:26,335000 --> 01:39:26,335000
+01:39:26,335000 --> 01:39:28,671000
 I need to be alone.
-不我想一个人
 
