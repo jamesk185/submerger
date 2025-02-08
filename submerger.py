@@ -3,7 +3,6 @@
 # Revised: 25/02/02
 # Description: Merge two srt files of different languages
 
-# TODO fix cases of only second sub being included in new fix for overlapping and repetition of second_sub when no first_sub
 # TODO; consider case where first_sub runs out of subs before second_sub (maybe already OK?)
 # TODO eventually; create system of rules for whether adjacent merged subs are different speakers or not
 # TODO maybe; get optimum final subtitle
@@ -14,11 +13,18 @@ import datetime as dt
 from datetime import datetime
 import sys
 
-def parse_subs(text):
+
+def parse_subs(text, which):
 	# initialise
 	prevline = "blank"
 	content = ""
 	subs_dict = {}
+	
+	# initialise marker to indicate whether content is from first or second sub
+	if which == "first":
+		marker = "{{1}}"
+	elif which == "second":
+		marker = "{{2}}"
 	
 	# loop through text line by line
 	for count, line in enumerate(text):
@@ -44,7 +50,7 @@ def parse_subs(text):
 		elif not line:
 			# add to all block's data to dict
 			if id not in subs_dict:
-				subs_dict[id] = (start_time, end_time, content)
+				subs_dict[id] = (start_time, end_time, content + marker)
 			else:
 				print(f"ID used a second time on line {count}. Exited early")
 				sys.exit()
@@ -272,6 +278,7 @@ def endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time,
 		second_sub_list = second_sub_list[1:]
 	return out, done, second_sub_list
 
+
 # function for seeing if merging two from second_sub gives a match
 def merged_endtime_diff(gap, key, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done, reverse = "no"):
 	if len(second_sub_list) > 1:
@@ -297,6 +304,7 @@ def merged_endtime_diff(gap, key, second_sub_list, first_start_time, second_star
 			# remove ouputted sub from second_sub_list
 			second_sub_list = second_sub_list[2:]
 	return out, done, second_sub_list
+
 
 # remove overlap from subs while making second sub to repeat if it's blank
 def unoverlap(text):
@@ -338,8 +346,8 @@ def unoverlap(text):
 				# if times overlap reduce previous endtime
 				if prev_end_time and start_time < prev_end_time:
 					prev_end_time = start_time
-				# if second language content is empty here then repeat from previous
-				if second_content == "":
+				# if second language content is empty here then repeat from previous if previous is content from first sub
+				if second_content == "" and first_content.endswith("{{1}}"):
 					second_content = prev_second_content
 				# add previous sub
 				if prev_id:
@@ -368,7 +376,9 @@ def unoverlap(text):
 	for key, value in subs_dict.items():
 		start_time = value[0]
 		end_time = value[1]
-		content = value[2] + "\n" + value[3]
+		content = value[2] + "\n" + value[3] if value[3] else value[2]
+		# remove marker from content
+		content = re.sub(r"\{\{[12]\}\}", "", content)
 		out += str(key) + "\n" + start_time.strftime(time_format) + " --> " + end_time.strftime(time_format) + "\n" + content + "\n\n"
 	
 	return out
@@ -397,9 +407,9 @@ def main():
 		second_sub += ["\n"]
 	
 	# this will be the primary sub
-	first_sub = parse_subs(first_sub)
+	first_sub = parse_subs(first_sub, "first")
 	# this will be the secondary sub
-	second_sub = parse_subs(second_sub)
+	second_sub = parse_subs(second_sub, "second")
 	
 	out = merge_subs(first_sub, second_sub)
 	
