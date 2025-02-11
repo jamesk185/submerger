@@ -391,7 +391,7 @@ def main():
 	time_format = "%H:%M:%S,%f"
 	
 	# read first subtitle file
-	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\eng.srt"
+	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\idiots_eng.srt"
 	with open(first_sub_path, "r") as r:
 		first_sub = r.readlines()
 	# add blank line to end just in case there isn't one
@@ -399,7 +399,7 @@ def main():
 		first_sub += ["\n"]
 	
 	# read second subtitle file
-	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\chn.srt"
+	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\idiots_chn.srt"
 	with open(second_sub_path, "r") as r:
 		second_sub = r.readlines()
 	# add blank line to end just in case there isn't one
