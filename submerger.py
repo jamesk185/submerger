@@ -1,6 +1,6 @@
 # Author: James Kowalik
 # Created: 25/01/12
-# Revised: 25/02/02
+# Revised: 25/02/11
 # Description: Merge two srt files of different languages
 
 # TODO; consider case where first_sub runs out of subs before second_sub (maybe already OK?)
@@ -224,7 +224,7 @@ def merge_subs(first_sub, second_sub):
 			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 8) 4 of first sub matched against 1 of second sub is less than 1.25s
+		# 12) 4 of first sub matched against 1 of second sub is less than 1.25s
 		if len(first_sub_list) > 3:
 			first_end_time_ = first_sub_list[3][0][1]
 			# TODO consider adding " - "
@@ -235,7 +235,7 @@ def merge_subs(first_sub, second_sub):
 				first_sub_list = first_sub_list[4:]
 				continue
 		
-		# 9) 4 of second sub matched against 1 of first sub is less than 1.25s
+		# 13) 4 of second sub matched against 1 of first sub is less than 1.25s
 		if len(first_sub_list) > 3:
 			second_end_time_ = second_sub_list[3][0][1]
 			# TODO consider adding " - "
@@ -246,21 +246,21 @@ def merge_subs(first_sub, second_sub):
 				second_sub_list = second_sub_list[4:]
 				continue
 		
-		# 12) difference between end times is less than 2.5s
+		# 14) difference between end times is less than 2.5s
 		out, done, second_sub_list = endtime_diff(2.5, newid, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
 		if done:
 			newid += 1
 			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 13) adjacent merged sub differs by less than 2.5s
+		# 15) adjacent merged sub differs by less than 2.5s
 		out, done, second_sub_list = merged_endtime_diff(2.5, newid, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
 		if done:
 			newid += 1
 			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 14) adjacent merged sub against adjacent merged sub by less than 2s
+		# 16) adjacent merged sub against adjacent merged sub by less than 2s
 		if len(first_sub_list) > 1:
 			first_end_time_ = first_sub_list[1][0][1]
 			# TODO consider adding " - "
@@ -271,35 +271,35 @@ def merge_subs(first_sub, second_sub):
 				first_sub_list = first_sub_list[2:]
 				continue
 		
-		# 15) REVERSED adjacent merged sub differs by less than 2s
+		# 17) REVERSED adjacent merged sub differs by less than 2s
 		out, done, first_sub_list = merged_endtime_diff(2, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
 			continue
 		
-		# 16) REVERSED adjacent merged sub differs by less than 2.5s
+		# 18) REVERSED adjacent merged sub differs by less than 2.5s
 		out, done, first_sub_list = merged_endtime_diff(2.5, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
 			continue
 		
-		# 17) adjacent merged sub differs by less than 2.75s
+		# 19) adjacent merged sub differs by less than 2.75s
 		out, done, second_sub_list = merged_endtime_diff(2.75, newid, second_sub_list, first_start_time, second_start_time, first_end_time, first_content, second_content, out, done)
 		if done:
 			newid += 1
 			first_sub_list = first_sub_list[1:]
 			continue
 		
-		# 18) REVERSED adjacent merged sub differs by less than 2.75s
+		# 20) REVERSED adjacent merged sub differs by less than 2.75s
 		out, done, first_sub_list = merged_endtime_diff(2.75, newid, first_sub_list, second_start_time, first_start_time, second_end_time, second_content, first_content, out, done, "yes")
 		if done:
 			newid += 1
 			second_sub_list = second_sub_list[1:]
 			continue
 		
-		# 8) 4 of first sub matched against 1 of second sub is less than 1.5s
+		# 21) 4 of first sub matched against 1 of second sub is less than 1.5s
 		if len(first_sub_list) > 3:
 			first_end_time_ = first_sub_list[3][0][1]
 			# TODO consider adding " - "
@@ -310,7 +310,7 @@ def merge_subs(first_sub, second_sub):
 				first_sub_list = first_sub_list[4:]
 				continue
 		
-		# 9) 4 of second sub matched against 1 of first sub is less than 1.5s
+		# 22) 4 of second sub matched against 1 of first sub is less than 1.5s
 		if len(first_sub_list) > 3:
 			second_end_time_ = second_sub_list[3][0][1]
 			# TODO consider adding " - "
@@ -321,7 +321,7 @@ def merge_subs(first_sub, second_sub):
 				second_sub_list = second_sub_list[4:]
 				continue
 		
-		# 19) difference between end times is less than 3.75s
+		# 23) difference between end times is less than 3.75s
 		out, done, second_sub_list = endtime_diff(3.75, newid, second_sub_list, first_start_time, second_start_time, first_end_time, second_end_time, first_content, second_content, out, done)
 		if done:
 			newid += 1
