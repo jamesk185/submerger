@@ -516,7 +516,7 @@ def main():
 	
 	out = unoverlap(out)
 	
-	with open("merged_subs.srt", "w") as w:
+	with open("C:\Users\james\Documents\Python\merge_subtitles\output\merged_subs.srt", "w") as w:
 		w.write(out)
 	
 
