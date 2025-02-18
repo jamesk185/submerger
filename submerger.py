@@ -489,7 +489,8 @@ def main():
 	
 	# read first subtitle file
 #	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\idiots_eng.srt"
-	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\bohemian_life_eng.srt"
+#	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\bohemian_life_eng.srt"
+	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\winter_sleep_eng.srt"
 	with open(first_sub_path, "r") as r:
 		first_sub = r.readlines()
 	# add blank line to end just in case there isn't one
@@ -498,7 +499,8 @@ def main():
 	
 	# read second subtitle file
 #	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\idiots_chn.srt"
-	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\bohemian_life_chn.srt"
+#	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\bohemian_life_chn.srt"
+	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\winter_sleep_chn.srt"
 	with open(second_sub_path, "r") as r:
 		second_sub = r.readlines()
 	# add blank line to end just in case there isn't one
