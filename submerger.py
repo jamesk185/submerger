@@ -340,8 +340,8 @@ def merge_subs(first_sub, second_sub):
 	
 	unmatched = ', '.join([x[1] for x in unmatched_second_sub])
 	print(f"IDs of unmatched in second_sub: {unmatched}")
-	print(f"Not outputted in second_sub: {len(second_sub_list)}")
-	print(f"Not outputted in first_sub: {len(first_sub_list)}")
+	print(f"Not outputted in second_sub: Total {len(second_sub_list)}; IDs {', '.join([x[1] for x in second_sub_list])}")
+	print(f"Not outputted in first_sub: Total {len(first_sub_list)}; IDs {', '.join([x[1] for x in first_sub_list])}")
 	
 	return out
 
@@ -488,21 +488,29 @@ def main():
 	time_format = "%H:%M:%S,%f"
 	
 	# read first subtitle file
-#	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\idiots_eng.srt"
-#	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\bohemian_life_eng.srt"
-	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\winter_sleep_eng.srt"
-	with open(first_sub_path, "r") as r:
-		first_sub = r.readlines()
+	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\boy_meets_girl_eng.srt"
+	openhand = open(first_sub_path, "rb")
+	# check if bom
+	if openhand.read(3) == b'\xef\xbb\xbf':
+		openhand = open(first_sub_path, "r", encoding='utf-8-sig')
+	else:
+		openhand = open(first_sub_path, "r")
+	first_sub = openhand.readlines()
+	openhand.close()
 	# add blank line to end just in case there isn't one
 	if first_sub[-1] not in ["\r\n", "\n", "\r"]:
 		first_sub += ["\n"]
 	
 	# read second subtitle file
-#	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\idiots_chn.srt"
-#	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\bohemian_life_chn.srt"
-	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\winter_sleep_chn.srt"
-	with open(second_sub_path, "r") as r:
-		second_sub = r.readlines()
+	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\boy_meets_girl_chn.srt"
+	openhand = open(second_sub_path, "rb")
+	# check if bom
+	if openhand.read(3) == b'\xef\xbb\xbf':
+		openhand = open(second_sub_path, "r", encoding='utf-8-sig')
+	else:
+		openhand = open(second_sub_path, "r")
+	second_sub = openhand.readlines()
+	openhand.close()
 	# add blank line to end just in case there isn't one
 	if second_sub[-1] not in ["\r\n", "\n", "\r"]:
 		second_sub += ["\n"]
@@ -516,9 +524,11 @@ def main():
 	
 	out = unoverlap(out)
 	
-	with open("C:\Users\james\Documents\Python\merge_subtitles\output\merged_subs.srt", "w") as w:
-		w.write(out)
+	# remove trailing zeros from timestamps
+	out = re.sub(r",(\d{3})\d{3}( -->|\r?\n)", r",\1\2", out)
 	
+	with open(r"C:\Users\james\Documents\Python\merge_subtitles\output\merged_subs.srt", "w") as w:
+		w.write(out)
 
 
 if __name__ == "__main__":
