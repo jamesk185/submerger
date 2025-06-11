@@ -78,7 +78,7 @@ def merge_subs(first_sub, second_sub):
 		# getting starting time in first_sub
 		start_time = first_sub_list[i][0][0]
 		# find starting point in second_sub
-		starting_second_sub = [x[1] for x in second_sub_list if dates2seconds_diff(x[0][0], start_time) < 0.5]
+		starting_second_sub = [x[1] for x in second_sub_list if dates2seconds_diff(x[0][0], start_time) < 1.5]
 		if starting_second_sub:
 			starting_second_sub = starting_second_sub[0]
 			starting_first_sub = first_sub_list[i][1]
@@ -488,7 +488,7 @@ def main():
 	time_format = "%H:%M:%S,%f"
 	
 	# read first subtitle file
-	first_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\boy_meets_girl_eng.srt"
+	first_sub_path = r"subs\europa_eng.srt"
 	openhand = open(first_sub_path, "rb")
 	# check if bom
 	if openhand.read(3) == b'\xef\xbb\xbf':
@@ -502,7 +502,7 @@ def main():
 		first_sub += ["\n"]
 	
 	# read second subtitle file
-	second_sub_path = r"C:\Users\james\Documents\Python\merge_subtitles\subs\boy_meets_girl_chn.srt"
+	second_sub_path = r"subs\europa_chn.srt"
 	openhand = open(second_sub_path, "rb")
 	# check if bom
 	if openhand.read(3) == b'\xef\xbb\xbf':
@@ -527,7 +527,7 @@ def main():
 	# remove trailing zeros from timestamps
 	out = re.sub(r",(\d{3})\d{3}( -->|\r?\n)", r",\1\2", out)
 	
-	with open(r"C:\Users\james\Documents\Python\merge_subtitles\output\merged_subs.srt", "w") as w:
+	with open(r"output\merged_subs.srt", "w") as w:
 		w.write(out)
 
 
